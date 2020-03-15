@@ -1,0 +1,20 @@
+.navbar {
+    background-color: #636363;
+    overflow: hidden;
+    position: fixed;
+    bottom:0;
+    width: 100%;
+  }
+  #FooterLeft{
+      font-size: medium;
+      color:white;
+      font-weight: lighter;
+  }
+  #copyright{
+      color:white;
+      font-weight: lighter;
+      font-size: small;
+  }
+  #footer{
+      text-align: center;
+  }
