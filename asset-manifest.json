@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.165e2948.chunk.css",
+    "main.js": "/portfolio/static/js/main.fabfe3d1.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.fabfe3d1.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.af0b07c5.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.af0b07c5.js.map",
+    "static/js/2.7407669c.chunk.js": "/portfolio/static/js/2.7407669c.chunk.js",
+    "static/js/2.7407669c.chunk.js.map": "/portfolio/static/js/2.7407669c.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "precache-manifest.75556ccecb503c3754ffcb1d15c57f68.js": "/portfolio/precache-manifest.75556ccecb503c3754ffcb1d15c57f68.js",
+    "service-worker.js": "/portfolio/service-worker.js",
+    "static/css/main.165e2948.chunk.css.map": "/portfolio/static/css/main.165e2948.chunk.css.map",
+    "static/js/2.7407669c.chunk.js.LICENSE.txt": "/portfolio/static/js/2.7407669c.chunk.js.LICENSE.txt",
+    "static/media/CV-FOTO.png": "/portfolio/static/media/CV-FOTO.90d94db6.png",
+    "static/media/Elin Forsberg.pdf": "/portfolio/static/media/Elin Forsberg.11eda4a3.pdf",
+    "static/media/carbon.PNG": "/portfolio/static/media/carbon.07fc946e.PNG",
+    "static/media/chat.PNG": "/portfolio/static/media/chat.695ee4f8.PNG",
+    "static/media/flight1.PNG": "/portfolio/static/media/flight1.4d7e8098.PNG",
+    "static/media/ikea.png": "/portfolio/static/media/ikea.9df15e03.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.af0b07c5.js",
+    "static/js/2.7407669c.chunk.js",
+    "static/css/main.165e2948.chunk.css",
+    "static/js/main.fabfe3d1.chunk.js"
+  ]
+}
