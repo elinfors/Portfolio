@@ -9,44 +9,40 @@ var chat = require('./chat.PNG')
 const Projects = () =>{
 
 
+
 return(
     <React.Fragment>
     <div className="projects">
-
+        <div>
+    <h2>RECENT PROJECTS</h2>
+    </div>
         <div className="card">
-            <img src={flight} alt="Avatar" style={{width:"100%"}}></img>
-            <div class="container">
-                <h4><b>KTH FLIGHT VISUALIZATION</b></h4>
-                <p></p>
-            </div>
+            <img  className = "image" src={flight} alt="Avatar" style={{width:"100%"}}></img>
+            <div className="overlay"></div>
+                <div className="text">Description of work</div>
         </div>
 
         <div className="card">
-            <img src={ikea} alt="Avatar" style={{width:"100%"}}></img>
-            <div class="container">
-                <h4><b>IKEA MANUAL CONCEPT</b></h4>
-                <p></p>
-            </div>
+            <img className = "image" src={ikea} alt="Avatar" style={{width:"100%"}}></img>
+            <div className="overlay"></div> 
+                <div className="text">Description of work</div>
         </div>
 
         <div className="card">
-            <img src={carbon} alt="Avatar" style={{width:"100%"}}></img>
-            <div class="container">
-                <h4><b>CARBON CALCULATOR</b></h4>
-                <p></p>
-            </div>
+            <img className = "image" src={carbon} alt="Avatar" style={{width:"100%"}}></img>
+            <div className="overlay"></div>
+            <div className="text">Description of work</div>
         </div>
 
         <div className="card">
-            <img src={chat} alt="Avatar" style={{width:"100%"}}></img>
-            <div class="container">
-                <h4><b>CLASSROOM CHAT</b></h4>
-                <p></p>
-            </div>
+            <img className = "image" src={chat} alt="Avatar" style={{width:"100%"}}></img>
+            <div className="overlay"></div>
+            <div className="text">Description of work</div>
         </div>
+
+        
 
     </div>
-    <Footer></Footer>
     </React.Fragment>
   )}
   export default Projects;
