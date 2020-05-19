@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from 'react'
 import {withRouter, NavLink, Link } from 'react-router-dom'
 import './footer.css'
+import '../style.css'
 const Footer = () => {
 return (
     <nav

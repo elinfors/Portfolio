@@ -3,7 +3,6 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": false,
-  
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
@@ -15,7 +14,8 @@
     "react-dom": "^16.13.0",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.4.0",
-    "react-scroll-to-component": "^1.0.2"
+    "react-scroll-to-component": "^1.0.2",
+    "react-sticky": "^6.0.3"
   },
   "scripts": {
     "predeploy": "npm run build",

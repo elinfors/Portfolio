@@ -4,12 +4,12 @@ import '../style.css'
 import { useRef, useLayoutEffect } from 'react'
 import pdf from './Elin Forsberg.pdf'
 import foto from './CV-FOTO.png'
-import Footer from '../Footer/footer'
 import Projects from '../Projects/projects'
 import history from '../../history'
 import { useHistory } from "react-router-dom";
 import scrollToComponent from 'react-scroll-to-component';
-
+import Footer from "../Footer/footer"
+import Skills from "../Skills/skills"
 const HomeScreen = () => {
 
   let history = useHistory();
@@ -33,12 +33,14 @@ const HomeScreen = () => {
 
   
     const myRef = useRef(null)
+    const myRef1 = useRef(null)
     const myRef2 = useRef(null)
     const myRef3 = useRef(null)
 
-    const executeScroll = () => {scrollToRef(myRef)}
-    const executeScroll2 = () => {scrollToRef(myRef2)}
-    const executeScroll3 = () => {scrollToRef(myRef3)}
+    const executeScrollProjects = () => {scrollToRef(myRef)}
+    const executeScrollSkills = () => {scrollToRef(myRef1)}
+    const executeScrollAbout = () => {scrollToRef(myRef2)}
+    const executeScrollUp = () => {scrollToRef(myRef3)}
 
 
     return (
@@ -47,7 +49,7 @@ const HomeScreen = () => {
             <div id="intro" className="intro" ref={myRef3}>
                 <img id="intro_img" src={foto}></img>
                 <h1>ELIN FORSBERG</h1>
-                <div className="button_container">
+                <div className="button_container_icons">
                   <a href="#">
                 <i class="fab fa-linkedin"></i>
                 </a>
@@ -66,32 +68,37 @@ const HomeScreen = () => {
                 <div className="button_container">
                   {/*<button className="button" onClick={() => Redirect1()}>PROJECTS</button>-->
                     <button className="button" onClick={() => Redirect2()}>ABOUT ME</button>*/}
-                    <button className="button" onClick={executeScroll}>PROJECTS</button>
-                    <button className="button" >ABOUT</button> {/*onClick={executeScroll2}*/}
-                    <form method="get" action={pdf}  target="_blank">
+                    <button className="button sticky" onClick={executeScrollProjects}>PROJECTS</button>
+                    <button className="button sticky" onClick={executeScrollSkills}>SKILLS</button>
+                    <button className="button sticky" onClick={executeScrollAbout}>ABOUT</button> {/*onClick={executeScroll2}*/}
+                   <form method="get" action={pdf}  target="_blank">
                         <button className="button" type="submit">DOWNLOAD CV</button>
-                    </form>
+                  </form>
                 </div>
                 
             </div>
             <div className="row">
               <div className="column left">
-                <div ref={myRef}>
+              <div ref={myRef1} className="skillsContainer">
+                  <Skills/>
+                </div>
+                <div ref={myRef} className="projectsContainer">
                 <Projects/>
+                </div> 
+                <div ref={myRef2} className="aboutContainer">
+                  <h1>ABOUT CONTAINER</h1>
                 </div>
-                {/* 
-                <div ref={myRef2} className="TEST">
-                  <h1>TESTAR SCROLL</h1>
-                </div>
-                */}
               </div>
               <div className="column right">
-                <button className="button2 up" onClick={executeScroll3}>
+                <button className="button2 up" onClick={executeScrollUp}>
                   <i class="fas fa-chevron-circle-up"></i>
                 </button>
               </div>
             </div>
-            <Footer/>
+            <div className="row">
+              <Footer/>
+            </div>
+
           </React.Fragment>
     )
 }

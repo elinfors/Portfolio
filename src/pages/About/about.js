@@ -9,7 +9,7 @@ const About = () =>{
 return(
     <React.Fragment>
 
-    <Footer></Footer>
+
     </React.Fragment>
   )}
   export default About;
