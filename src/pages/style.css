@@ -3,7 +3,7 @@
 body {
     font-family: "Montserrat";
     background-color: #ffffff;
-    height:100%;
+    position: relative;
   }
   
   h1 {
@@ -12,22 +12,35 @@ body {
   }
   
   h2{
+    color:#404040;
     font-size:50px;
     text-align: left;
-    padding-left: 8%;
+    border-bottom: solid 4px #404040;
+  }
+  .projectsHeadline{
+    width:45%;
   }
   .container {
     display: inline-block;
     cursor: pointer;
   }
+.button_container_icon{
+  display: inline-block;
+  cursor: pointer;
+  text-align:center;
 
+}
     
   .button_container {
     display: inline-block;
     cursor: pointer;
     text-align:center;
   }
-  
+  .sticky{
+    position: sticky;
+    position: -webkit-sticky;
+    top:0;
+  }
   .intro{
     margin-top: 5%;
     text-align:center;
@@ -41,6 +54,7 @@ body {
     text-decoration: none;
 }
 
+
   .button, .button2{
     margin-top:5%;
     margin-right: 20px;
@@ -48,7 +62,6 @@ body {
     background-color: transparent;
     border: none;
     color: #636363;
-   
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -89,7 +102,8 @@ body {
   .projects{
     text-align:center;
     height:100%;
-    margin-left: 8%;
+    margin-left: 10%;
+    margin-right: 10%;
     margin-bottom:300px;
   }
   a{
@@ -101,8 +115,11 @@ body {
   }
   .fab, .fas {
     margin: 5px;
-    font-size: 30px;
+    font-size: 35px;
     color: #636363;
+  }
+  .fa-tools{
+    font-size: 100px;
   }
 
   .fab:hover, .fas:hover{
@@ -139,24 +156,51 @@ body {
     top: 4rem;
   }
   .button2{
-    size:20px;
+    size:40px;
   }
 
 .card {
-    display: inline-block; 
+    display: flex; 
+    justify-content: space-between;
     position: relative;
-    width: 40%;
-    margin-left: 2%;
-    margin-right: 2%;
-    margin-top:2%
+    width: 100%;
+    padding:80px;
     
   }
 
   .image{
     display: block;
-    width: 100%;
-    border-radius: 5px 5px 5px 5px;
-    height:270px;
+    width:40%;
+    padding-left:30px;
+    padding-right:30px;
+    height:260px;
+   
+  }
+
+  .projectDescription{
+    width:50%;
+    display: block;
+    justify-content: center;
+    color:#404040;
+  }
+  .imgDiv{
+    width:50%;
+    align-items: center;
+  }
+  .projectTitle{
+    margin-bottom:5%;
+    font-size: 30px;
+    font-weight: bold;
+
+  }
+  .readMoreButton{
+    margin-top:5%;
+    border-radius: 10px;
+    border:none;
+    background-color:#E7C387;
+    color:#404040;
+    width:200px;
+    height:40px;
   }
 
   .overlay {
@@ -166,7 +210,7 @@ body {
     left: 0;
     right: 0;
     height: 100%;
-    width: 100%;
+    width: 40%;
     opacity: 0;
     transition: .5s ease;
     background-color: #000000;
@@ -190,6 +234,30 @@ body {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center;
+  }
+
+  .skillsContainer{
+    align-items: center;
+    text-align:center;
+    margin-left: 10%;
+    margin-right: 5%;
+  }
+
+  .skillBox{
+    text-align: center;
+    align-items: right;
+    display:inline-flex;
+    justify-content: space-between;
+    background-color: rgb(236, 227, 252);
+    border-radius: 5px;
+    
+    width:100%;
+  }
+  .skill{
+    padding:100px;
+  }
+  .screw{
+    width: 100px;
   }
  
 
