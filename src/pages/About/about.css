@@ -1,0 +1,66 @@
+
+@media only screen and (max-width: 768px) {
+    .about{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+    }
+    .aboutImage{
+        flex-direction: row;
+        position: relative;
+    }
+    .aboutText{
+        text-align: left;
+        flex-direction: row;
+        position: relative;
+    }
+    .cvfoto{
+        width:90%;
+    }
+    .aboutTitle{
+        font-size: 30px;
+        font-family: "Lora", serif;
+    }
+
+}
+
+@media only screen and (min-width: 769px) {
+.aboutSection{
+    justify-content: center;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.about{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.aboutImage{
+    flex-direction: column;
+    position: relative;
+}
+.aboutText{
+    text-align: left;
+    flex-direction: column;
+    position: relative;
+    width:50%;
+}
+.cvfoto{
+    width:60%;
+}
+.aboutTitle{
+    font-size: 30px;
+    font-family: "Lora", serif;
+}
+.aboutContent{
+    font-size: 14px;
+}
+}
