@@ -1,0 +1,93 @@
+form {
+    display: flex;
+    flex-direction: column;
+  
+}
+form input{
+  font: 15px Montserrat;
+      box-sizing: border-box;
+      display: block;
+      border: none;
+      padding: 5%;
+      width: 100%;
+      margin-bottom: 4%;
+      border-radius: 20px;
+      font-size: 15px;
+      outline: none;
+      transition: all 0.2s ease-in-out;
+}
+
+.formemail{
+  margin-left:2%;
+}
+.formname{
+  margin-right:2%;
+}
+form textarea {
+      font: 15px Montserrat;
+      box-sizing: border-box;
+      display: block;
+      border: none;
+      border-radius: 20px;
+      padding: 5%;
+      width: 100%;
+      margin-bottom: 4%;
+      font-size: 15px;
+      outline: none;
+      transition: all 0.2s ease-in-out;
+}
+.formRow{
+  display: flex;
+  flex-direction: row;
+}
+  
+form input::placeholder {
+        transition: all 0.2s ease-in-out;
+        color: #999;
+        font: 15px Montserrat;
+      }
+form textarea::placeholder {
+        transition: all 0.2s ease-in-out;
+        color: #999;
+        font: 15px Montserrat;
+      }
+  
+form input:focus{
+  padding-top: 28px;
+  padding-bottom: 12px;
+}
+form input .populated {
+        padding-top: 28px;
+        padding-bottom: 12px;
+      }
+  
+form input .populated::placeholder {
+          color: transparent;
+        }
+  
+    textarea {
+      height: 200px;
+    }
+  
+.submitButton {
+      transition: all 0.2s ease-in-out;
+      text-transform: uppercase;
+      letter-spacing: 5px;
+
+    background-color: transparent;
+    border: solid;
+    color: #404040;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    cursor: pointer;
+    align-self: center;
+}
+.submitButton:hover {
+        background: #404040;
+        color:white;
+        cursor: pointer;
+      }
+    
+  
