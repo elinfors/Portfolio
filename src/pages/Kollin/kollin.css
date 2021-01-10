@@ -179,6 +179,7 @@
     .back{
       display:flex;
       flex-direction: row;
+      height:50px !important;
     }
     
     .box5{
@@ -189,10 +190,11 @@
       text-align: center;
       background-image: url("KollinBanner.png") ;
       background-size: cover;
-      height:400px;
-      background-position: center center;
+      height:500px;
       background-repeat: no-repeat;
       background-color: #464646;
+      background-attachment: fixed;
+      background-position: center;
     }
     .words5{
       width:30%;
@@ -233,8 +235,8 @@
     .projectContent{
       display: flex;
       flex-direction: column;
-      margin-left:10%;
-      margin-right:10%;
+      margin-left:20%;
+      margin-right:20%;
       margin-top: 5%;
     }
     .projectDesc{
@@ -260,15 +262,9 @@
       text-align: center;
       text-decoration: none;
       display: inline-block;
-      font-size: 15px;
+      font-size: 11px;
       background-color: transparent;
-        border: solid;
-        border-color: #404040;
         padding: 11px 26px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        border-radius: 10px;
         cursor: pointer;
     }
     .back_arrow{

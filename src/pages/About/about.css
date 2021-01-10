@@ -1,9 +1,19 @@
 
 @media only screen and (max-width: 768px) {
+    .aboutSection{
+        justify-content: center;
+        margin-left: 10%;
+        margin-right: 10%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 10%;
+    }
     .about{
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: center;
     
     }
     .aboutImage{
@@ -11,7 +21,7 @@
         position: relative;
     }
     .aboutText{
-        text-align: left;
+        text-align: center;
         flex-direction: row;
         position: relative;
     }

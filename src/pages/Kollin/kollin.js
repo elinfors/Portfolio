@@ -19,6 +19,12 @@ const Kollin = () =>{
         console.log("clicked")
       }
 
+      const RedirectFlight = () =>{
+
+        history.push("/flight");
+        console.log("clicked")
+      }
+
       
 
     return(
@@ -35,7 +41,7 @@ const Kollin = () =>{
                         <div className="headline">
                         Kollin
                         </div>
-                        <i className="fas fa-chevron-right"></i>
+                        <i className="fas fa-chevron-right" onClick={()=>{RedirectFlight()}}></i>
                     </div>
                         <div className="words5">
                     <div>
