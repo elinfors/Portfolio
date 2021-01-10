@@ -10,6 +10,7 @@ import history from '../../history'
 import { useHistory } from "react-router-dom";
 import scrollToComponent from 'react-scroll-to-component';
 import Footer from "../Footer/footer"
+import Contact from "../Contact/contact"
 import Navbar from "../Navbar/navbar"
 import Skills from "../Skills/skills"
 import useCollapse from 'react-collapsed';
@@ -192,6 +193,9 @@ const HomeScreen = () => {
                 <div className="aboutContainer">
                   <About/>
                 </div>
+                </div>
+                <div className="row">
+                <Contact/>
                 </div>
             
             

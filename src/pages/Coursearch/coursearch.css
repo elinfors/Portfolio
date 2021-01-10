@@ -179,6 +179,7 @@
   .back{
     display:flex;
     flex-direction: row;
+    height:50px !important;
   }
   
   .box{
@@ -190,9 +191,10 @@
     background-image: url("CourseBanner1.png") ;
     background-size: cover;
     height:400px;
-    background-position: center center;
+    /*background-position: center center;*/
     background-repeat: no-repeat;
     background-color: #464646;
+    background-position: 50% 0px
   }
   .words{
     width:50%;
@@ -233,9 +235,10 @@
   .projectContent{
     display: flex;
     flex-direction: column;
-    margin-left:10%;
-    margin-right:10%;
+    margin-left:20%;
+    margin-right:20%;
     margin-top: 5%;
+    
   }
   .projectDesc{
     color: #404040;
@@ -260,15 +263,9 @@
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 15px;
+    font-size: 11px;
     background-color: transparent;
-      border: solid;
-      border-color: #404040;
       padding: 11px 26px;
-      text-align: center;
-      text-decoration: none;
-      display: inline-block;
-      border-radius: 10px;
       cursor: pointer;
   }
   .back_arrow{

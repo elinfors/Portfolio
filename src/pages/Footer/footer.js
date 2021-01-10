@@ -6,7 +6,7 @@ return (
   
     <div id="navbarFooter">
         <p id="copyright">
-        ©2019 by Elin Forsberg
+        ©2021 by Elin Forsberg
         </p>
         <p id='FooterLeft'>
           forsbergselin@gmail.com

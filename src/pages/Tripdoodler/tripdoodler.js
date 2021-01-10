@@ -20,6 +20,11 @@ const TripDoodler = () =>{
         history.push("/frontread");
         console.log("clicked")
       }
+      const RedirectFlight = () =>{
+
+        history.push("/flight");
+        console.log("clicked")
+      }
 
 
     return(
@@ -31,14 +36,14 @@ const TripDoodler = () =>{
             <div className="tripPage">
 
                 <div className="box4">
-                    <div className="headlineBox">
-                        <i class="fas fa--left"></i>
+                <div className="headlineBox">
+                        <i class="fas fa-chevron-left" onClick={()=>{RedirectFlight()}} ></i>
                         <div className="headline">
                         Tripdoodler
                         </div>
-                        <i class="fas fa-chevron-right" onClick={()=>{RedirectFrontread()}}></i>
+                        <i className="fas fa-chevron-right" onClick={()=>{RedirectFrontread()}}></i>
                     </div>
-                        <div className="words">
+                        <div className="words7">
                             <div>
                                 UX Design
                             </div>
@@ -59,7 +64,12 @@ const TripDoodler = () =>{
                 </div>
                 
                 <div className="projectContent">
-                <div className="infoIcons">
+                <div className="infoIcons1"> 
+                
+                            <div className="infoDiv">
+                                <p>Course</p>
+                                <p>UX Design Prototyping</p>
+                            </div>
                             <div className="infoDiv">
                                 <i class="fas fa-user-tag"></i>
                                 <p>Designer</p>
@@ -72,22 +82,36 @@ const TripDoodler = () =>{
                                 <i class="fas fa-wrench"></i>
                                 <p>Lean Canvas, User Story Map, Micro Interactions, User Validation</p>
                             </div>
+                           
+
                         </div>
 
                 <div className="projectDesc">
                     Project Description
+                </div>
+                <div className="problem">
+                    Tripdoodler is developing a planning travel tool with a sustainable focus that enables travelers to collect, 
+                    plan, and share travel with their community. By rethinking what travel planning is, their goal is to create 
+                    a new global standard that will change the travel industry where sustainability is a natural part of all future travel choices. 
+                </div>
+                <div className="problem">
+                    Our team was given the assignment to create the UX and UI for:
+                    <ul>
+                        <li>Post-travel user-driven rating of experiences based on set sustainability parameters</li>
+                        <li>Sharing past travel plans with friends in TripDoodler.</li>
+                        <li>Copying items of shared trip plans from other users to your own dashboard, and create a new plan based on it.</li>
+                        <li>Search in the TripDoodler community for trip ideas from friends or travelers you follow based on sustainability and/or regular travel parameters</li>
+                    </ul>
                 </div>
                 <div className="projectDesc">
                     Problem
                 </div>
                 <div className="problem">
                     <ul>
-               <li> Students found it difficult to find information about the course offerings at KTH.</li>
-                <li>Once found, the course information was solely presented through text and a full understanding of course content and structure was restricted.
-               </li>
-               <li> Students found it difficult to get an overview of their education. 
-               </li>
-                </ul>
+                        <li> Students found it difficult to find information about the course offerings at KTH.</li>
+                        <li>Once found, the course information was solely presented through text and a full understanding of course content and structure was restricted.</li>
+                        <li> Students found it difficult to get an overview of their education. </li>
+                    </ul>
                 </div>
                  <div className="projectDesc">
                     Solution

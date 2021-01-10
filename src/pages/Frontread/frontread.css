@@ -179,6 +179,7 @@
     .back{
       display:flex;
       flex-direction: row;
+      height: 50px;
     }
     
     .box2{
@@ -259,15 +260,9 @@
       text-align: center;
       text-decoration: none;
       display: inline-block;
-      font-size: 15px;
+      font-size: 11px;
       background-color: transparent;
-        border: solid;
-        border-color: #404040;
         padding: 11px 26px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        border-radius: 10px;
         cursor: pointer;
     }
     .back_arrow{

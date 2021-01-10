@@ -13,9 +13,14 @@ const Flight = () =>{
         history.push("/");
         console.log("clicked")
       }
-      const RedirectCourse = () =>{
+      const RedirectKollin = () =>{
 
-        history.push("/coursearch");
+        history.push("/kollin");
+        console.log("clicked")
+      }
+      const RedirectTripdoodler = () =>{
+
+        history.push("/tripdoodler");
         console.log("clicked")
       }
 
@@ -31,11 +36,11 @@ const Flight = () =>{
 
                 <div className="box6">
                 <div className="headlineBox">
-                        <i class="fas fa-chevron-left" onClick={()=>{RedirectCourse()}} ></i>
+                        <i class="fas fa-chevron-left" onClick={()=>{RedirectKollin()}} ></i>
                         <div className="headline">
                         Flight Visualization
                         </div>
-                        <i className="fas fa-chevron-right"></i>
+                        <i className="fas fa-chevron-right" onClick={()=>{RedirectTripdoodler()}}></i>
                     </div>
                         <div className="words6">
                     <div>
