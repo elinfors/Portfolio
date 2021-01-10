@@ -1,24 +1,109 @@
-/* CSS files add styling rules to your content */
 
-body {
+@media only screen and (max-width: 768px) {
+
+  .menu button {display: none;}
+  .menu a.icon {
+    display: inline-block;
+    margin:5%;
+  }
+  .menu a.close{
+    display:none;
+  }
+  .menu.responsive {
+    position: absolute;
+    background-color: white;
+    width:100%;
+
+  }
+  .menu.responsive .icon {
+    color:transparent;
+  }
+  .menu.responsive .close{
+    display: block;
+    margin-left: 5%;
+  }
+  .menu.responsive button {
+    float: none;
+    display: block;
+    text-align: left;
+    margin-left: 5%;
+  }
+  body {
     font-family: "Montserrat";
-    background-color: #ffffff;
+    background-color: #f0f0f0 !important;
     position: relative;
+  }
+  .navbar{
+    margin-top: 0 !important;
+    position: sticky;
+    position: -webkit-sticky;
+    top:0;
+    z-index: 5 !important;
+  }
+  .navbar-light .navbar-toggler {
+    color: #404040;
+    border-color: transparent !important;
+  }
+  .navbar-toggler:focus, .navbar-toggler:hover {
+    text-decoration: none;
+    border-color: transparent !important;
+  }
+
+  .headerText{
+    width: 100% !important;
+  }
+  .headerRow{
+    display:block !important;
+  }
+  .introRow{
+    display: flex;
+    flex-direction: column;
+  }
+  .discoverButton{
+    background-color: transparent;
+    border: solid;
+    color: white;
+    padding: 6px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 5%;
+    align-self: center;
+  }
+  .discoverButton:active, .discoverButton:focus{
+    outline: none;
+    text-decoration: none;
+  }
+  .words2{
+    display: inline-flex;
+    justify-content: space-between;
+    align-self: center;
+    width: 90%;
+    color: white;
   }
   
   h1 {
-    color: #636363;
-    font-size: 70px;
+    color: white;
+    margin-top: 10%;
+    margin-bottom: 1%;
+    font-weight: 900;
+    font-size: 30px;
+    font-family: "Poppins", Arial, sans-serif;
   }
   
   h2{
     color:#404040;
-    font-size:50px;
+    font-size:20px;
     text-align: left;
-    border-bottom: solid 4px #404040;
   }
   .projectsHeadline{
-    width:45%;
+    width:100%;
   }
   .container {
     display: inline-block;
@@ -32,21 +117,47 @@ body {
 }
     
   .button_container {
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
     cursor: pointer;
-    text-align:center;
+  }
+  .navName{
+    display: inline-flex;
+    margin-left: 2%;
+    font-weight:bolder;
+    font-size: 10px;
   }
   .sticky{
-    position: sticky;
-    position: -webkit-sticky;
     top:0;
   }
-  .intro{
-    margin-top: 5%;
-    text-align:center;
-    padding-left:15%;
-    padding-right: 15%;
-    margin-bottom:20%;
+
+  .getInTouch{
+    margin-top:5%;
+    color: #ffffff;
+  }
+  
+    .intro{
+      text-align:center;
+      justify-content: center;
+      background-image: url("./HomePage/Header.JPG");
+      background-size: cover;
+      height:20%;
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-color: #464646;
+      display: flex;
+      flex-direction: column;
+     
+     
+    }
+  .name{
+    text-align: center;
+    color: white;
+    padding-top: 5%;
+    margin-bottom: 1%;
+    font-weight: 900;
+    font-size: 30px;
+    font-family: "Poppins", Arial, sans-serif;
   }
   .button:active,.button:focus {
     outline: none;
@@ -54,23 +165,242 @@ body {
     text-decoration: none;
 }
 
+.button, .button2{
+  margin-top: 5%;
+  background-color: transparent;
+  border: none;
+  color: #404040;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+}
 
-  .button, .button2{
-    margin-top:5%;
-    margin-right: 20px;
-    margin-left: 20px;
+.button:hover{
+  cursor: pointer;
+  border-bottom: solid;
+}
+
+.button2:hover{
+  cursor: pointer;
+  border-bottom: none;
+}
+
+.button:focus, .button2:focus {
+  outline:0;
+}
+a{
+  color:#404040;
+}
+form{
+
+  display: flex;
+  flex-direction: column;
+}
+.fab, .fas {
+margin: 5px;
+font-size: 20px;
+color: #ffffff;
+}
+.fa-tools{
+font-size: 100px;
+}
+
+.fab:hover, .fas:hover{
+color: #404040;
+}
+.aboutContainer{
+  width:100%
+}
+
+}
+
+/*WEB*/
+@media only screen and (min-width: 769px) {
+
+body {
+    font-family: 'Montserrat';
+    background-color: #f0f0f0;
+    position: relative;
+    font-weight: lighter;
+  }
+  .navbar{
+    margin-top: 0 !important;
+    position: sticky;
+    position: -webkit-sticky;
+    top:0;
+    z-index: 5 !important;
+  }
+  .nav-item{
+    cursor: pointer;
+  }
+  .nav-item:active{
+    text-decoration: underline;
+  }
+  .row{
+   padding-top: 1%;
+   margin-left: 0 !important;
+   margin-right: 0 !important;
+  }
+  .rowFooter{
+    padding-top: 1%;
+   }
+  .introRow{
+    display: flex;
+    flex-direction: column;
+  }
+  .discoverButton{
     background-color: transparent;
-    border: none;
-    color: #636363;
+    border: solid;
+    color: white;
+    padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 30px;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 5%;
+    width:10%;
+    align-self: center;
+  }
+  .discoverButton:hover{
+    color: #404040;
+    background-color: white;
+    
+  }
+  .discoverButton:active, .discoverButton:focus{
+    outline: none;
+    text-decoration: none;
+  }
+  
+  .name {
+    color: white;
+    padding-top: 5%;
+    margin-bottom: 1%;
+    font-weight: 900;
+    font-size: 80px;
+    font-family: "Poppins", Arial, sans-serif;
+  }
+  .words2{
+    display: inline-flex;
+    justify-content: space-between;
+    align-self: center;
+    width: 30%;
+    color: white;
+  }
+  
+  h2{
+    color:#404040;
+    font-size:30px;
+    text-align: center;
+  }
+  .projectsHeadline{
+    width:100%;
+  }
+  .container {
+    display: inline-block;
+    cursor: pointer;
+  }
+.button_container_icon{
+  display: inline-block;
+  cursor: pointer;
+  text-align:center;
+
+}
+    
+  .button_container {
+    display: inline-flex;
+    cursor: pointer;
+    text-align: center;
+    float: right;
+    margin-right: 2%;
+  }
+  .navName{
+    display: inline-flex;
+    margin-left: 2%;
+    font-weight: bold;
+  }
+  .sticky{
+    position: sticky;
+    position: -webkit-sticky;
+    top:0;
+  }
+  .headerRow{
+    display:flex;
+    flex-direction: column;
+    margin-bottom: 5%;
+    background-color: #f0f0f0;
+  }
+  #intro_img{
+    box-sizing: border-box;
+    width:30%;
+    height:auto;
+    margin-left: 10%;
+}
+.getInTouch{
+  margin-top:5%;
+  color: white;
+}
+
+  .intro{
+    text-align:center;
+    justify-content: center;
+    background-image: url("./HomePage/Header.JPG");
+    background-size: cover;
+    height:700px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: #464646;
+    display: flex;
+    flex-direction: column;
+   
+  }
+
+  .button:active,.button:focus {
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    cursor: pointer;
+}
+.menu{
+  align-items: center;
+  z-index: 1;
+  background-color: #f0f0f0;
+  color:#404040;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+}
+.menu .icon{
+    display: none;
+}
+.menu .close{
+  display:none;
+}
+.description{
+font-size: 15px;
+color: #404040;
+
+}
+
+  .button, .button2{
+    margin-top:2%;
+    margin-bottom: 2%;
+    margin-left: 60px;
+    background-color: transparent;
+    border: none;
+    color: #404040;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
   }
   
   .button:hover{
+    text-decoration-line: underline;
+    text-decoration-style: solid;
     cursor: pointer;
-    border-bottom: solid;
   }
 
   .button2:hover{
@@ -92,136 +422,34 @@ body {
   
   
   /* Add rounded corners to the top left and the top right corner of the image */
- 
-
-  #intro_img{
-      width:200px;
-      height:200px;
+  .square{
+    position:absolute;
+      top: 10px;
+      left: 10px;
+      z-index: 1;
   }
   
-  .projects{
-    text-align:center;
-    height:100%;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-bottom:300px;
-  }
   a{
     color:#000000;
   }
 
   form{
-      display: inline-block;
+      display: inline-flex;
   }
   .fab, .fas {
     margin: 5px;
-    font-size: 35px;
-    color: #636363;
+    font-size: 30px;
+    color: #ffffff;
   }
   .fa-tools{
     font-size: 100px;
   }
 
   .fab:hover, .fas:hover{
-    color: #000000;
-  }
-  .TEST{
-    margin-top:500px;
+    color: #404040;
   }
 
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-    align-items: flex-start
-  }
-  .left {
-    width: 92%;
-  }
-  
-  .right {
-    width: 5%;
-    float:right;
-    padding:20px;
-    align-items: flex-start
-  }
-  .column {
-    float: left;
-    height:2000px;
-   
-  }
-  .button2.up{
-    position: -webkit-sticky; /* Safari */
-    position: sticky;
-    top: 4rem;
-  }
-  .button2{
-    size:40px;
-  }
 
-.card {
-    display: flex; 
-    justify-content: space-between;
-    position: relative;
-    width: 100%;
-    padding:80px;
-    
-  }
-
-  .image{
-    display: block;
-    width:40%;
-    padding-left:30px;
-    padding-right:30px;
-    height:260px;
-   
-  }
-
-  .projectDescription{
-    width:50%;
-    display: block;
-    justify-content: center;
-    color:#404040;
-  }
-  .imgDiv{
-    width:50%;
-    align-items: center;
-  }
-  .projectTitle{
-    margin-bottom:5%;
-    font-size: 30px;
-    font-weight: bold;
-
-  }
-  .readMoreButton{
-    margin-top:5%;
-    border-radius: 10px;
-    border:none;
-    background-color:#E7C387;
-    color:#404040;
-    width:200px;
-    height:40px;
-  }
-
-  .overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 40%;
-    opacity: 0;
-    transition: .5s ease;
-    background-color: #000000;
-  }
-  
-  .card:hover .overlay {
-    opacity: 0.7;
-  }
-  .card:hover .text {
-    opacity: 1;
-  }
   
   .text {
     color: white;
@@ -259,7 +487,12 @@ body {
   .screw{
     width: 100px;
   }
- 
+  .aboutContainer{
+    width:100%;
+    margin-top: 5%;
+    background-color: #dddddd;
+  }
+}
 
 
 
