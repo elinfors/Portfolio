@@ -10,7 +10,7 @@ import history from '../../history'
 import { useHistory } from "react-router-dom";
 import scrollToComponent from 'react-scroll-to-component';
 import Footer from "../Footer/footer"
-import Contact from "../Contact/contact"
+import ContactForm from "../Contact/contact"
 import Navbar from "../Navbar/navbar"
 import Skills from "../Skills/skills"
 import useCollapse from 'react-collapsed';
@@ -40,10 +40,12 @@ const HomeScreen = () => {
     const myRef1 = useRef(null)
     const myRef2 = useRef(null)
     const myRef3 = useRef(null)
+    const myRef4 = useRef(null)
 
     const executeScrollProjects = () => {scrollToRef(myRef)}
     const executeScrollSkills = () => {scrollToRef(myRef1)}
     const executeScrollAbout = () => {scrollToRef(myRef2)}
+    const executeScrollContact = () =>{scrollToRef(myRef4)}
     const executeScrollUp = () => {scrollToRef(myRef3)}
 
     const hamburger = () =>{
@@ -113,7 +115,7 @@ const HomeScreen = () => {
                 <a class="nav-link" onClick={executeScrollAbout}>About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link" onClick={executeScrollContact}>Contact</a>
               </li>
             </ul>
           </div>
@@ -184,18 +186,37 @@ const HomeScreen = () => {
                   <Skills/>
                   </div>*/}
 
-                  <div className="projectsContainer">
+                 
                   <Projects/>
-                  </div>
+                  
               </div>
 
-                <div className="row" ref={myRef2}>
-                <div className="aboutContainer">
+                <div className="row aboutContainer" ref={myRef2}>
+               
                   <About/>
                 </div>
-                </div>
-                <div className="row">
-                <Contact/>
+               
+               <div className="row contactContainer" ref={myRef4}>
+                  <p className="contactHeadline">
+                    CONTACT ME
+                  </p>
+                  <div className="contactIcons">
+                    <div className="contactDiv">
+                    <a  href="mailto:forsbergselin@gmail.com" target="_blank">
+                      <i className="fas fa-envelope-square gray"></i>
+                      </a>
+                      <p className="contactText">forsbergselin@gmail.com</p>
+                      </div>
+
+                      <div className="contactDiv">
+                      <a href="https://www.linkedin.com/in/elinfors/">
+                    <i className="fab fa-linkedin gray"></i>
+                    </a>
+                    <p className="contactText">LinkedIn</p>
+                    </div>
+                    
+                  </div>
+                <ContactForm/>
                 </div>
             
             
