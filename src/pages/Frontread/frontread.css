@@ -44,10 +44,13 @@
     text-align: center;
     background-image: url("FrontBanner2.png");
     background-size: cover;
-    height:30%;
+    height:100vh;
     background-position: center center;
     background-repeat: no-repeat;
     background-color: #464646;
+    background-attachment: fixed;
+    background-position: center;
+    justify-content: center;
     }
     .words{
       margin-top: 2%;
@@ -146,6 +149,7 @@
     .back_button:focus{
       outline:0;
     }
+
     }
     @media only screen and (min-width: 769px) {
       .tripPage{
@@ -190,10 +194,12 @@
       text-align: center;
       background-image: url("FrontBanner2.png") ;
       background-size: cover;
-      height:400px;
-      background-position: center center;
+      height:100vh;
       background-repeat: no-repeat;
       background-color: #464646;
+      justify-content: center;
+      background-attachment: fixed;
+      background-position: center;
     }
     .words{
       width:50%;

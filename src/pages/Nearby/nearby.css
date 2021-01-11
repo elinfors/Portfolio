@@ -44,10 +44,11 @@
     text-align: center;
     background-image: url("NearbyBanner.png");
     background-size: cover;
-    height:30%;
+    height:100vh;
     background-position: center center;
     background-repeat: no-repeat;
     background-color: #464646;
+    justify-content: center;
     }
     .words3{
       margin-top: 2%;
@@ -184,9 +185,10 @@
       text-align: center;
       background-image: url("NearbyBanner.png") ;
       background-size: cover;
-      height:500px;
+      height:100vh;
       background-repeat: no-repeat;
       background-color: #464646;
+      justify-content: center;
       background-attachment: fixed;
       background-position: center;
     

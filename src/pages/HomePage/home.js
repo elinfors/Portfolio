@@ -180,7 +180,7 @@ const HomeScreen = () => {
 
                 
             
-            <div className="row" ref={myRef}>
+            <div className="projectsContainer" ref={myRef}>
       
              {/*} <div ref={myRef1} className="skillsContainer">
                   <Skills/>
@@ -191,14 +191,14 @@ const HomeScreen = () => {
                   
               </div>
 
-                <div className="row aboutContainer" ref={myRef2}>
+                <div className="aboutContainer" ref={myRef2}>
                
                   <About/>
                 </div>
                
-               <div className="row contactContainer" ref={myRef4}>
+               <div className="contactContainer" ref={myRef4}>
                   <p className="contactHeadline">
-                    CONTACT ME
+                    LET'S GET IN TOUCH
                   </p>
                   <div className="contactIcons">
                     <div className="contactDiv">

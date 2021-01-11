@@ -85,6 +85,8 @@ return(
                             </div>
                         
             </div>
+            </div>
+            <div className='projRow'>
             <div className='projCol' onClick={()=>{RedirectNearby()}}>
             <img  className = "image" src={nearby} alt="Avatar"></img>
                     <div className="overlay"></div>
@@ -97,8 +99,7 @@ return(
                             </div>
             </div>
 
-        </div>
-        <div className='projRow'>
+    
             <div className='projCol' onClick={() => RedirectCoursearch()}>
             <img  className = "image" src={course} alt="Avatar"></img>
                     <div className="overlay"></div>
@@ -110,6 +111,8 @@ return(
                             <button className="readMoreButton">READ MORE</button>
                             </div>
             </div>
+            </div>
+            <div className='projRow'>
             <div className='projCol' onClick={()=>{RedirectKollin()}}>
             <img  className = "image" src={kollin} alt="Avatar"></img>
                     <div className="overlay"></div>

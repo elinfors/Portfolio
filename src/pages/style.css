@@ -76,6 +76,8 @@
     margin-top: 5%;
     align-self: center;
     letter-spacing: 5px;
+    font-weight: bold;
+    backdrop-filter: blur(10px)
   }
   .discoverButton:active, .discoverButton:focus{
     outline: none;
@@ -87,6 +89,7 @@
     align-self: center;
     width: 90%;
     color: white;
+    font-weight: bold;
   }
   
   h1 {
@@ -218,6 +221,12 @@ color: #404040;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+.projectsContainer{
+  width:100vw;
+  padding-top:1%;
 }
 
 .contactContainer{
@@ -231,6 +240,26 @@ color: #404040;
 .contactHeadline{
   margin-bottom: 2%;
 }
+.contactIcons{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 2%;
+  width:30%;
+}
+.contactText{
+  margin-bottom: 0;
+}
+.gray{
+  color: #404040 !important;
+}
+.contactDiv{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
 
 }
 
@@ -287,6 +316,8 @@ body {
     width:10%;
     align-self: center;
     letter-spacing: 5px;
+    font-weight: bold;
+    backdrop-filter: blur(10px)
   }
   .discoverButton:hover{
     color: #404040;
@@ -314,6 +345,7 @@ body {
     align-self: center;
     width: 30%;
     color: white;
+    font-weight: bold;
   }
   
   h2{
@@ -489,11 +521,16 @@ color: #404040;
     text-align: center;
   }
 
-
+.projectsContainer{
+  width:100%;
+  padding-top: 1%;
+}
   .aboutContainer{
     width:100%;
     margin-top: 5%;
     background-color: #dddddd;
+    padding-top: 1%;
+    padding-bottom: 1%;
   }
   .contactContainer{
     padding-top: 5%;
@@ -511,7 +548,7 @@ color: #404040;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    margin-bottom: 5%;
+    margin-bottom: 2%;
     width:30%;
   }
   .contactText{

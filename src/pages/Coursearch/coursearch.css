@@ -44,10 +44,12 @@
   text-align: center;
   background-image: url("CourseBanner1.png");
   background-size: cover;
-  height:30%;
-  background-position: center center;
+  height:100vh;
   background-repeat: no-repeat;
   background-color: #464646;
+  justify-content: center;
+  background-attachment: fixed;
+  background-position: center;
   }
   .words{
     margin-top: 2%;
@@ -190,11 +192,12 @@
     text-align: center;
     background-image: url("CourseBanner1.png") ;
     background-size: cover;
-    height:400px;
-    /*background-position: center center;*/
+    height:100vh;
     background-repeat: no-repeat;
     background-color: #464646;
-    background-position: 50% 0px
+    justify-content: center;
+    background-attachment: fixed;
+    background-position: center;
   }
   .words{
     width:50%;
