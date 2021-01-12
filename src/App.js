@@ -8,7 +8,7 @@ import Footer from "./pages/Footer/footer"
 
 function App() {
   return (
-      <BrowserRouter>
+      <BrowserRouter basename="/portfolio">
       <ScrollToTop>
         <div className='App'>
           <Router/>
