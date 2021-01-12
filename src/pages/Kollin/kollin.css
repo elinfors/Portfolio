@@ -37,19 +37,17 @@
     }
     
     .box5{
-    padding: 1%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    background-image: url("KollinBanner.png");
-    background-size: cover;
-    height:100vh;
-    background-position: center;
-    justify-content: center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-color: #464646;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      background: url("KollinBanner.png") no-repeat center center fixed ;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      height:100vh;
     }
     .words5{
       margin-top: 2%;

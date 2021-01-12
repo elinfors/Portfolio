@@ -146,12 +146,12 @@
       align-items: center;
       justify-content: center;
       text-align: center;
-      background-image: url("./HomePage/HomeBanner2.jpg") ;
-      background-size:100vw;
-      height:250px;
-      background-repeat: no-repeat;
-      background-color: #464646;
-      background-position: center center;
+      background: url("./HomePage/HomeBanner2.jpg") no-repeat center center fixed ;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      height:100vh;
 
      
      
