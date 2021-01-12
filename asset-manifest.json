@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.e41e5041.chunk.css",
-    "main.js": "/portfolio/static/js/main.0107b4cd.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.0107b4cd.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.cb5d368a.chunk.css",
+    "main.js": "/portfolio/static/js/main.bb6c8c9a.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.bb6c8c9a.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.209c2d7e.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.209c2d7e.js.map",
-    "static/js/2.8bb3f65e.chunk.js": "/portfolio/static/js/2.8bb3f65e.chunk.js",
-    "static/js/2.8bb3f65e.chunk.js.map": "/portfolio/static/js/2.8bb3f65e.chunk.js.map",
+    "static/js/2.34c816a1.chunk.js": "/portfolio/static/js/2.34c816a1.chunk.js",
+    "static/js/2.34c816a1.chunk.js.map": "/portfolio/static/js/2.34c816a1.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.0baa749071f085d4b17a9a94fba4d043.js": "/portfolio/precache-manifest.0baa749071f085d4b17a9a94fba4d043.js",
+    "precache-manifest.c9f1f347d488b26e30de25770b19895e.js": "/portfolio/precache-manifest.c9f1f347d488b26e30de25770b19895e.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.e41e5041.chunk.css.map": "/portfolio/static/css/main.e41e5041.chunk.css.map",
-    "static/js/2.8bb3f65e.chunk.js.LICENSE.txt": "/portfolio/static/js/2.8bb3f65e.chunk.js.LICENSE.txt",
+    "static/css/main.cb5d368a.chunk.css.map": "/portfolio/static/css/main.cb5d368a.chunk.css.map",
+    "static/js/2.34c816a1.chunk.js.LICENSE.txt": "/portfolio/static/js/2.34c816a1.chunk.js.LICENSE.txt",
     "static/media/coursearch.css": "/portfolio/static/media/CourseBanner1.58a55123.png",
     "static/media/Coursearch.png": "/portfolio/static/media/Coursearch.f4896afa.png",
     "static/media/Elin Forsberg CV.pdf": "/portfolio/static/media/Elin Forsberg CV.8b5dbe5b.pdf",
@@ -26,6 +26,7 @@
     "static/media/Nearby2.png": "/portfolio/static/media/Nearby2.6ba3029c.png",
     "static/media/nearby.css": "/portfolio/static/media/NearbyBanner.dc4f5b6f.png",
     "static/media/tripdoodler.css": "/portfolio/static/media/TripBanner2.7a2099f1.png",
+    "static/media/TripVid.mp4": "/portfolio/static/media/TripVid.c0d7d645.mp4",
     "static/media/Tripdoodler2.png": "/portfolio/static/media/Tripdoodler2.9c9dd193.png",
     "static/media/carbon2.png": "/portfolio/static/media/carbon2.872f4062.png",
     "static/media/chat.PNG": "/portfolio/static/media/chat.695ee4f8.PNG",
@@ -40,8 +41,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.209c2d7e.js",
-    "static/js/2.8bb3f65e.chunk.js",
-    "static/css/main.e41e5041.chunk.css",
-    "static/js/main.0107b4cd.chunk.js"
+    "static/js/2.34c816a1.chunk.js",
+    "static/css/main.cb5d368a.chunk.css",
+    "static/js/main.bb6c8c9a.chunk.js"
   ]
 }
