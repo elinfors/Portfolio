@@ -147,8 +147,8 @@
       justify-content: center;
       text-align: center;
       background-image: url("./HomePage/HomeBanner2.jpg") ;
-      background-size:100px;
-      height:auto;
+      background-size:100vw;
+      height:250px;
       background-repeat: no-repeat;
       background-color: #464646;
       background-position: center center;
