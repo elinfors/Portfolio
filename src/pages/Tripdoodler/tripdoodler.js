@@ -9,6 +9,7 @@ var feed = require('./feed.png')
 var detail = require('./detail.png')
 var profile = require('./profile.png')
 var rate = require('./rate.png')
+var video = require('../../TripVid.mp4')
 
 
 const TripDoodler = () =>{
@@ -41,7 +42,7 @@ const TripDoodler = () =>{
 
                 <div className="box4">
                 <div className="headlineBox">
-                        <i class="fas fa-chevron-left" onClick={()=>{RedirectFlight()}} ></i>
+                        <i className="fas fa-chevron-left" onClick={()=>{RedirectFlight()}} ></i>
                         <div className="headline">
                         Tripdoodler
                         </div>
@@ -70,8 +71,8 @@ const TripDoodler = () =>{
                 <div className="projectContent">
                     <div className="videoDiv">
                         <div>
-                            <video className="Tripvideo"autoPlay muted loop>
-                                <source src='/videos/TripVid.mp4' type="video/mp4"></source>
+                            <video className="Tripvideo" autoPlay muted loop controls>
+                                <source src={video} type="video/mp4"></source>
                             </video>
                         </div>
                         <div className="infoIcons1"> 

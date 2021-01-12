@@ -147,12 +147,11 @@
       justify-content: center;
       text-align: center;
       background-image: url("./HomePage/HomeBanner2.jpg") ;
-      background-size: cover;
-      height:100vh;
+      background-size:100vw;
+      height:auto;
       background-repeat: no-repeat;
       background-color: #464646;
-      background-attachment: fixed;
-      background-position: center;
+      background-position: center center;
 
      
      
@@ -314,7 +313,6 @@ body {
     margin-left: 20%;
     margin-right: 20%;
     margin-top: 5%;
-    width:10%;
     align-self: center;
     letter-spacing: 5px;
     font-weight: bold;
