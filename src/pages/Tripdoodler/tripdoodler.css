@@ -20,7 +20,6 @@
   .headlineBox{
     width:90%;
     display:flex;
-    margin-top: 8%;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
@@ -42,12 +41,15 @@ display: flex;
 flex-direction: column;
 align-items: center;
 text-align: center;
+justify-content: center;
 background-image: url("TripBanner2.png");
 background-size: cover;
-height:30%;
-background-position: center center;
+height:100vh;
 background-repeat: no-repeat;
 background-color: #464646;
+background-attachment: fixed;
+background-position: center;
+
 }
 .words7{
   margin-top: 2%;
@@ -80,11 +82,21 @@ background-color: #464646;
   margin-top: 0;
   margin-bottom: 0;
 }
-.infoDiv{
-  display: inline-flex;
-  align-items: center;
-}
 
+.infoDiv{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 5%;
+}
+.infoDivHead{
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10%;
+  border-bottom: 1px solid #404040;
+  padding-bottom: 3px
+}
 .projectContent{
 display: flex;
 flex-direction: column;
@@ -142,6 +154,36 @@ font-family: "Lora", serif;
 .back_button:focus{
   outline:0;
 }
+.tripSolution{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.imageCard{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.tripImage{
+  width:50%;
+}
+.videoDiv{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5%;
+}
+.Tripvideo{
+  border-radius: 20px;
+  border: solid;
+  border-width: thin;
+  border-color: transparent;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+  width:100%;
+}
+
 }
 @media only screen and (min-width: 769px) {
   .tripPage{
@@ -159,7 +201,6 @@ font-family: "Lora", serif;
 .headlineBox{
   width:90%;
   display:flex;
-  margin-top: 8%;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
@@ -187,11 +228,11 @@ font-family: "Lora", serif;
   text-align: center;
   background-image: url("TripBanner2.png") ;
   background-size: cover;
-  height:500px;
+  height:100vh;
   /*background-position: center center;*/
   background-repeat: no-repeat;
   background-color: #464646;
-
+  justify-content: center;
   background-attachment: fixed;
   background-position: center;
 
@@ -208,10 +249,11 @@ font-family: "Lora", serif;
 
 }
 .infoIcons1{
-  width:50%;
+  width:30%;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-start;
+  margin-left:10%;
 
 }
 .infoIcons1 .fas{
@@ -232,6 +274,15 @@ font-family: "Lora", serif;
   display: flex;
   flex-direction: row;
   align-items: center;
+  margin-bottom: 5%;
+}
+.infoDivHead{
+    display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 10%;
+  border-bottom: 1px solid #404040;
+  padding-bottom: 3px
 }
 
 .projectContent{
@@ -268,7 +319,7 @@ font-family: "Lora", serif;
   background-color: transparent;
     padding: 11px 26px;
     cursor: pointer;
-    border-style: none;
+    border: none;
 }
 .back_arrow{
     margin-left:2%;
@@ -323,6 +374,38 @@ font-family: "Lora", serif;
       text-align: center;
       width:700px;
       box-shadow:  3px 5px 6px #ccc
+  }
+  .tripSolution{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .imageCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding:2%;
+    font-size:15px;
+  }
+  .tripImage{
+    width:200px;
+    margin-bottom: 2%;
+  }
+  .videoDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 5%;
+  }
+  .Tripvideo{
+    border-radius: 20px;
+    border: solid;
+    border-width: thin;
+    border-color: transparent;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    width:250px;
   }
 
 }

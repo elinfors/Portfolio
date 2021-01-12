@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from 'react'
 import Footer from '../Footer/footer'
+import pdf from './Elin Forsberg CV.pdf'
 import "./about.css"
 var aboutImage = require('./cvfoto.jpg')
 
@@ -37,9 +38,15 @@ return(
               </p>
               
             
-              <p className="aboutContent">
+              <div className="aboutContentCV">
+                <p>
               Do you wish to know more about my previous experiences?
               </p>
+                <form method="get" action={pdf}  target="_blank">
+                    <button className="buttonCV" type="submit">Download my CV</button>
+              </form>
+              </div>
+             
 
           </div>
 
