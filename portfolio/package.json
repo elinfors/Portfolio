@@ -4,6 +4,7 @@
   "version": "0.1.0",
   "private": false,
   "dependencies": {
+    "-": "0.0.1",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
@@ -20,7 +21,8 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "^3.4.4",
     "react-scroll-to-component": "^1.0.2",
-    "react-sticky": "^6.0.3"
+    "react-sticky": "^6.0.3",
+    "save-dev": "0.0.1-security"
   },
   "scripts": {
     "predeploy": "npm run build",
