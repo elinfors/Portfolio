@@ -90,6 +90,17 @@ const Frontread = () =>{
                                         <p style={{fontSize:'15px'}}>E-LEARNING AND GAMIFICATION</p>
                                         <p className="projectName">Frontread Redesign</p>
                                     </div>
+                                    <div className="infoDivButtons">
+                                        <a href="https://www.figma.com/proto/DWhBQ3syZcrgP6rVPIKk1V/Frontread?node-id=17%3A19&scaling=min-zoom" target="_blank">
+                                            <button className="projectButton">VIEW WIREFRAMES</button>
+                                        </a>
+                                        <form method="get" action={pdf}  target="_blank">
+                                                <button className="projectButtonDownload" type="submit">PROJECT REPORT
+                                                <i id="downloadIcon" className="fas fa-arrow-circle-down"></i>
+                                                </button>
+                                        </form>
+
+                                    </div>
                                     <div className="infoDiv">
                                         <i class="fas fa-user-tag"></i>
                                         <p>Designer</p>
@@ -105,17 +116,7 @@ const Frontread = () =>{
                                     <div className="infoDiv">
                                         <p>This project was part of a course in e-learning and entrepreneurship at DTU, Danish Technical University, in collaboration with the e-learning company <a href="https://www.frontread.com/en/" target="_blank" style={{textDecoration:'underline'}}>Frontread</a>. </p>
                                     </div>
-                                    <div className="infoDivButtons">
-                                        <a href="https://www.figma.com/proto/DWhBQ3syZcrgP6rVPIKk1V/Frontread?node-id=17%3A19&scaling=min-zoom" target="_blank">
-                                            <button className="projectButton">VIEW WIREFRAMES</button>
-                                        </a>
-                                        <form method="get" action={pdf}  target="_blank">
-                                                <button className="projectButton" type="submit">DOWNLOAD REPORT
-                                                <i id="cvbutton" className="fas fa-arrow-circle-down"></i>
-                                                </button>
-                                        </form>
-
-                                    </div>
+    
                         </div>
 
                         <div className="projectDesc">

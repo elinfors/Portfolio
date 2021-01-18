@@ -151,8 +151,9 @@
     }
     .projectDesc{
     color: #404040;
-    font-size: 30px;
-    font-weight: lighter;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
     font-family: "Lora", serif;
     margin-top: 3%;
     }
@@ -315,7 +316,7 @@
     }
     .infoDiv p{
       color:#404040;
-      font-size: 13px;
+      font-size: 15px;
       margin-top: 0;
       margin-bottom: 0;
     }
@@ -327,23 +328,24 @@
     }
     .infoDivButtons{
         display: flex;
-        flex-direction: column;
-        align-items: left;
+        flex-direction: row;
+        justify-content: space-evenly;
         margin-bottom: 5%;
 
     }
     .projectButton{
         transition: all 0.2s ease-in-out;
-        font-size: 13px;
+      font-size: 10px;
         background-color: transparent;
         border: solid;
         color: #404040;
         align-self: center;
-        padding: 5%;
+        padding: 3%;
         /* margin: 10px; */
         border-radius: 7px;
         cursor: pointer;
-        width: 20vw;
+        width: 150px;
+        height: 40px;
         margin-bottom: 5%;
     }
     .projectButton:hover {
@@ -363,7 +365,7 @@
         display: flex;
       flex-direction: column;
       align-items: flex-start;
-      margin-bottom: 10%;
+      margin-bottom: 5%;
       border-bottom: 1px solid #404040;
       padding-bottom: 3px
     }
@@ -378,15 +380,16 @@
     }
     .projectDesc{
       color: #404040;
-      font-size: 20px;
-      font-weight: lighter;
-      font-family: "Lora", serif;
+      text-transform: uppercase;
+      font-size: 15px;
+      font-weight: bold;
       margin-top: 3%;
     }
     .projectText{
         margin-top: 5%;
         margin-bottom: 5%;
-        font-size: 13px;
+        font-size: 15px;
+        line-height: 1.5;
     }
     
     .sub_headline{
@@ -491,10 +494,35 @@
       }
       .projectName{
           font-family: 'Lora, serif';
+          font-weight: bold;
           font-size: 30px;
       }
       .problem{
         font-size:13px;
       }
+      .projectButtonDownload{
+        border: solid;
+        font-size: 10px;
+        border-radius: 7px;
+        border-color: #404040;
+        padding: 1%;
+        background-color: transparent;
+        width: 150px;
+        height: 40px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        cursor: pointer;
+        transition: all 0.2s ease-in-out;
+      }
+      .projectButtonDownload:hover{
+        background-color: #404040 !important;
+        color:white !important;
+      }
+      .projectButtonDownload:hover #downloadIcon{
+        color:white !important;
+    }
     
     }
