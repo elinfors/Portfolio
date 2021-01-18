@@ -23,15 +23,14 @@ return(
             <p className="aboutContent">
               I have, for as long as I can remember, been torn between my creativity and analytical mindset. 
               Studying Interactive Media Technology at KTH allowed me to combine them and a whole new world of technology and design opened up. 
-              During my education I have explored a wide range of technologies, strategies and problems to solve - from sustainability to e-learning.
-              To me, human-centered design is the most important aspect of digitalization and I believe in a user centric digital future,
-              both to ensure good user experiences and for creating value- and growth for any business.
               
               </p>
               <p className="aboutContent">
-              I am a driven person who works in structured, efficient and goal-oriented ways, while always staying curious and open. 
-              
+              During my education I have explored a wide range of technologies, strategies and problems to solve - from sustainability to e-learning.
+              To me, human-centered design is the most important aspect of digitalization and I believe in a user centric digital future,
+              both to ensure good user experiences and for creating value- and growth for any business.
               </p>
+             
               <p className="aboutContent">
               I am currently pursuing a Master’s of Science in Interactive Media Technology at KTH - Royal Institute of Technology in Stockholm, Sweden, 
               and I plan to graduate in June 2021.
@@ -40,10 +39,14 @@ return(
             
               <div className="aboutContentCV">
                 <p>
-              Do you wish to know more about my previous experiences?
+              Want to know more about my previous experiences?
               </p>
                 <form method="get" action={pdf}  target="_blank">
-                    <button className="buttonCV" type="submit">Download my CV</button>
+                    <button className="buttonCV" type="submit">
+                   <p className="cvText">DOWNLOAD CV</p>
+                    <i id="cvbutton" className="fas fa-arrow-circle-down"></i>
+                    
+                    </button>
               </form>
               </div>
              

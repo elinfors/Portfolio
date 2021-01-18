@@ -1,10 +1,19 @@
 import React, {useState, useEffect} from 'react'
 //import "../style.css"
 import "./frontread.css"
+import "../projectStyle.css"
 import history from '../../history'
 import { useHistory } from "react-router-dom";
-
 import Footer from "../Footer/footer"
+import pdf from './Frontread Project - Report.pdf'
+
+var goal = require('./goal.png')
+var feedback = require('./feedback.png')
+var overview = require('./overview.png')
+var progress = require('./progress.png')
+var theme1 = require('./theme1.png')
+var theme2 = require('./theme2.png')
+
 
 
 const Frontread = () =>{
@@ -34,7 +43,7 @@ const Frontread = () =>{
                 {/*<img onClick={() => RedirectBack()} className="back_arrow"src={arrow}></img>*/}
                 <button onClick={() => RedirectBack()}  className="back_button">BACK</button>
             </div> 
-            <div className="tripPage">
+            <div className="page">
 
                 <div className="box2">
                     <div className="headlineBox">
@@ -58,12 +67,6 @@ const Frontread = () =>{
                             |
                             </div>
                             <div>
-                                Concept Design
-                            </div>
-                            <div>
-                            |
-                            </div>
-                            <div>
                                 Product Development
                             </div>
                         </div>
@@ -71,49 +74,77 @@ const Frontread = () =>{
                 </div>
                 
                 <div className="projectContent">
-                <div className="infoIcons">
-                            <div className="infoDiv">
-                                <i class="fas fa-user-tag"></i>
-                                <p>Designer</p>
-                            </div>
-                            <div className="infoDiv">
-                                <i class="fas fa-users"></i>
-                                <p>4</p>
-                            </div>
-                            <div className="infoDiv">
-                                <i class="fas fa-wrench"></i>
-                                <p>Lean Canvas, User Story Map, Micro Interactions, User Validation</p>
-                            </div>
+
+                    <div className="mediaDiv">
+                        <img className="solutionImg"src={goal}></img>
+                        <img className="solutionImg"src={overview}></img>
+                        <img className="solutionImg"src={feedback}></img>
+                        <img className="solutionImg"src={theme2}></img>
+                        <img className="solutionImg"src={theme1}></img>
+                        <img className="solutionImg"src={progress}></img>
+
+                    </div>
+                    <div className="descriptionDiv">
+                        <div className="infoIcons">
+                                    <div className="infoDivHead">
+                                        <p style={{fontSize:'15px'}}>E-LEARNING AND GAMIFICATION</p>
+                                        <p className="projectName">Frontread Redesign</p>
+                                    </div>
+                                    <div className="infoDiv">
+                                        <i class="fas fa-user-tag"></i>
+                                        <p>Designer</p>
+                                    </div>
+                                    <div className="infoDiv">
+                                        <i class="fas fa-users"></i>
+                                        <p>3</p>
+                                    </div>
+                                    <div className="infoDiv">
+                                        <i class="fas fa-wrench"></i>
+                                        <p>Figma, Design Thinking, Double Diamond, PACT-analysis, Participatory Evaluation, Proto Personas</p>
+                                    </div>
+                                    <div className="infoDiv">
+                                        <p>This project was part of a course in e-learning and entrepreneurship at DTU, Danish Technical University, in collaboration with the e-learning company <a href="https://www.frontread.com/en/" target="_blank" style={{textDecoration:'underline'}}>Frontread</a>. </p>
+                                    </div>
+                                    <div className="infoDivButtons">
+                                        <a href="https://www.figma.com/proto/DWhBQ3syZcrgP6rVPIKk1V/Frontread?node-id=17%3A19&scaling=min-zoom" target="_blank">
+                                            <button className="projectButton">VIEW WIREFRAMES</button>
+                                        </a>
+                                        <form method="get" action={pdf}  target="_blank">
+                                                <button className="projectButton" type="submit">DOWNLOAD REPORT
+                                                <i id="cvbutton" className="fas fa-arrow-circle-down"></i>
+                                                </button>
+                                        </form>
+
+                                    </div>
                         </div>
 
-                <div className="projectDesc">
-                    Project Description
-                </div>
-                <div className="projectDesc">
-                    Problem
-                </div>
-                <div className="problem">
-                    <ul>
-               <li> Students found it difficult to find information about the course offerings at KTH.</li>
-                <li>Once found, the course information was solely presented through text and a full understanding of course content and structure was restricted.
-               </li>
-               <li> Students found it difficult to get an overview of their education. 
-               </li>
-                </ul>
-                </div>
-                 <div className="projectDesc">
-                    Solution
-                </div>
-                <div className="solution">
+                        <div className="projectDesc">
+                            Project Description
+                        </div>
+                        <div className="projectText">
+                        Frontread provides an e-learning platform for school students with the purpose of practising- and improving reading speed and is currently being used by more than 150 000 students in over 800 schools. The aim of the project was to redesign the e-learning platform, so that students would become more self-driven and motivated without needing support and help from teachers. 
 
-                The design and development of an interactive visualization tool for customization and personalization of KTH students’ educational paths
-                </div>
-                <div className="projectDesc">
-                    Design Process
-                </div>
-                <div className="design process">
+                        </div>
+                        <div className="projectDesc">
+                            Problem
+                        </div>
+                        <div className="projectText">
+                        Although Frontread is a success story, they were looking for possibilities to make the training on the platform independent of teachers and more self-driven by students. They were also interested in increasing the students’ motivation to practise their reading speed and their engagement on the platform. 
 
-                The design and development of an interactive visualization tool for customization and personalization of KTH students’ educational paths
+                        </div>
+                        <div className="projectDesc">
+                            Solution
+                        </div>
+                        <div className="projectText">
+                        We redesigned the platform and integrated motivational features and gamification elements. By using theory of human behavior, e-learning, gamification and several learning theories such as self-regulation theory and self-determination theory, we found goal-setting, personalized feedback, relatable content and non-repetitiveness to be important factors to increase autonomy and motivation. The final delivery was a mockup prototype that consisted of two main parts, an exercise part and a personal dashboard. In our design, students can set their own individual goals with the training and get personal feedback on their progress in relation to the goals. They also get to select a theme for the different training modules to make the experience of the platform more personalized, less repetitive and by unlocking new themes along the training the student also gets something to work for. 
+
+                        </div>
+                        <div className="projectDesc">
+                            Design Process
+                        </div>
+                        <div className="projectText">
+                        A design thinking approach was used to structure the project in an iterative manner, whereas the Double Diamond method was applied to divide the design process into the four phases Discover, Define, Develop and Deliver. A challenge with this design process was that we didn’t have access to students using the platform, making it difficult to test and evaluate design ideas. Instead, we used methods like participatory user testing, qualitative stakeholder interviews, a PACT-analysis and proto-personas to try to understand and emphasize with the users of the platform. Please feel free to download the project report to read more about the process. 
+                             </div>
                 </div>
                 </div>
 

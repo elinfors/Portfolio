@@ -4,7 +4,7 @@ import history from '../../history'
 import { useHistory } from "react-router-dom";
 import Home from '../HomePage/home'
 var carbon = require('./carbon2.png')
-var ikea = require('./ikea.png')
+var ikea = require('./IKEA.png')
 var flight = require('./flight2.png')
 var chat = require('./chat.PNG')
 var rect1 = require('./Rectangle1.png')
@@ -65,7 +65,7 @@ return(
                     <div className="overlay"></div>
 
                             <div className="text">
-                                <p>App Design</p>
+                                <p>APP DESIGN</p>
                                 <p className="hoverHeadline">Tripdoodler</p>
                                 <p className="hoverText">Design of mobile application for rating and sharing sustainable travel experiences</p>
                                 <button className="readMoreButton">READ MORE</button>
@@ -78,7 +78,7 @@ return(
                     <div className="overlay"></div>
 
                         <div className="text">
-                            <p>Concept Design</p>
+                            <p>CONCEPT DESIGN</p>
                             <p className="hoverHeadline">Frontread</p>
                             <p className="hoverText">Redesign and gamification of e-learning platform</p>
                             <button className="readMoreButton">READ MORE</button>
@@ -92,7 +92,7 @@ return(
                     <div className="overlay"></div>
 
                         <div className="text">
-                            <p>App Design and Development</p>
+                            <p>APP DESIGN AND DEVELOPMENT</p>
                             <p className="hoverHeadline">NearBy</p>
                             <p className="hoverText">Design and development of mobile application for self registration of meals during online treatment for eating disorders</p>
                             <button className="readMoreButton">READ MORE</button>
@@ -105,7 +105,7 @@ return(
                     <div className="overlay"></div>
 
                         <div className="text">
-                            <p>Web Design and Development</p>
+                            <p>WEB DESIGN AND DEVELOPMENT</p>
                             <p className="hoverHeadline">Coursearch</p>
                             <p className="hoverText">Design and development of an interactive visualization tool for course search and customization of KTH students’ educational paths </p>
                             <button className="readMoreButton">READ MORE</button>
@@ -118,7 +118,7 @@ return(
                     <div className="overlay"></div>
 
                         <div className="text">
-                            <p>UX Design</p>
+                            <p>UX DESIGN</p>
                             <p className="hoverHeadline">Kollin onboarding</p>
                             <p className="hoverText">Design of onboarding experience for new users of Kollin.io</p>
                             <button className="readMoreButton">READ MORE</button>
@@ -129,14 +129,29 @@ return(
                     <div className="overlay"></div>
 
                         <div className="text">
-                            <p>Data Visualization</p>
+                            <p>DATA VISUALIZATION</p>
                             <p className="hoverHeadline">Flight Visualization</p>
                             <p className="hoverText">A visualization tool to help employees and other stakeholders at KTH to make better decisions regarding their flying habits</p>
                             <button className="readMoreButton">READ MORE</button>
                             </div>
            
             </div>
+            
 
+        </div>
+        <div className='projRow'>
+            <div className='projCol' onClick={()=>{RedirectFlight()}}>
+            <img  className = "image" src={ikea} alt="Avatar"></img>
+                    <div className="overlay"></div>
+
+                        <div className="text">
+                            <p>INTERACTION DESIGN</p>
+                            <p className="hoverHeadline">IKEA Assembly</p>
+                            <p className="hoverText">Redesign and digitalization of IKEA paper instructions for assembling furniture</p>
+                            <button className="readMoreButton">READ MORE</button>
+                            </div>
+           
+            </div>
         </div>
 
 
