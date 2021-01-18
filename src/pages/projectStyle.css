@@ -1,0 +1,500 @@
+@media only screen and (max-width: 768px) {
+    .menu .back{
+      display: block !important;
+      z-index: 1;
+    }
+    .tripPage{
+      display:flex;
+      flex-direction: column;
+      font-size: smaller;
+    }
+    
+      .headline{
+        color:#ffffff;
+        text-align: center;
+        font-weight: 900;
+          font-size: 40px;
+          font-family: "Poppins", Arial, sans-serif;
+      }
+      
+      .headlineBox{
+        width:90%;
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+      }
+      .headlineBox .fas{
+        color:white;
+        font-size: 30px;
+        cursor: pointer;
+      }
+    
+    .back button{
+    display:block;
+    flex-direction: row;
+    }
+
+    .words{
+      margin-top: 2%;
+      margin-bottom: 2%;
+      display: inline-flex;
+      justify-content: space-between;
+      font-weight: bold;
+      width: 80%;
+      color:white;
+    
+    }
+    .infoIcons{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    
+    }
+    .infoIcons .fas{
+      color:#404040;
+      font-size:20px;
+    
+    }
+    .infoIcons .fas .hover{
+      color:#404040;
+    }
+    .infoDiv p{
+      color:#404040;
+      font-size: 13px;
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+    
+    .infoDiv{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      margin-bottom: 5%;
+    }
+    .infoDivButtons{
+      display: flex;
+      flex-direction: column;
+      align-items: left;
+      margin-bottom: 5%;
+
+  }
+  .projectButton{
+      transition: all 0.2s ease-in-out;
+      font-size: 13px;
+      background-color: transparent;
+      border: solid;
+      color: #404040;
+      align-self: center;
+      padding: 5%;
+      /* margin: 10px; */
+      border-radius: 7px;
+      cursor: pointer;
+      width: 20vw;
+      margin-bottom: 5%;
+  }
+  .projectButton:hover {
+      background: #404040;
+      border:none;
+      color:white;
+      cursor: pointer;
+    }
+  .projectButton:focus {
+      background: #404040;
+      outline:none;
+      color:white;
+      cursor: pointer;
+    }
+    .projectButton{
+        transition: all 0.2s ease-in-out;
+        font-size: 13px;
+        background-color: transparent;
+        border: solid;
+        color: #404040;
+        align-self: center;
+        padding: 2%;
+        /* margin: 10px; */
+        border-radius: 7px;
+        cursor: pointer;
+        width: 80vw;
+        margin-bottom: 5%;
+    }
+    .projectButton:hover {
+        background: #404040;
+        border:none;
+        color:white;
+        cursor: pointer;
+      }
+    .projectButton:focus {
+        background: #404040;
+        outline:none;
+        color:white;
+        cursor: pointer;
+      }
+
+
+    .infoDivHead{
+        display: flex;
+      flex-direction: column;
+      margin-top: 10%;;
+      align-items: center;
+      margin-bottom: 10%;
+      border-bottom: 1px solid #404040;
+      padding-bottom: 3px
+    }
+    .projectContent{
+    display: flex;
+    flex-direction: column;
+    margin-left:10%;
+    margin-right:10%;
+    margin-top: 5%;
+    }
+    .projectDesc{
+    color: #404040;
+    font-size: 30px;
+    font-weight: lighter;
+    font-family: "Lora", serif;
+    margin-top: 3%;
+    }
+    
+    
+    .sub_headline{
+      margin-top:5%;
+      margin-left: 20%;
+      margin-right: 20%;
+      text-align: left;
+      font-size: 25px;
+    }
+    .back_button{
+      margin-top:1%;
+      margin-bottom: 1%;
+      margin-left: 1%;
+      color: #404040;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 10px;
+      background-color: transparent;
+      border: none;
+      text-align: center;
+      display: inline-block;
+      cursor: pointer;
+    }
+    
+    .back_button:hover{
+      text-decoration-line: underline;
+      text-decoration-style: solid;
+      cursor: pointer;
+    }
+    .back_button:focus{
+      outline:0;
+    }
+    
+    .back_arrow{
+      margin-left:2%;
+      width:10px;
+      cursor: pointer;
+      color:#404040;
+    }
+    .back_arrow:hover, .back_arrow:focus{
+      text-decoration-line: underline;
+      text-decoration-style: solid;
+      color:#404040;
+      cursor: pointer;
+    }
+    
+    .solution{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .imageCard{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    .solutionImg{
+      width:50%;
+    }
+    .videoDiv{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 5%;
+    }
+
+    .centervideodiv{
+      display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 7%;
+    }
+    .solutionImg{
+      width:80vw;
+      align-self: center;
+    }
+    .mediaDiv{
+        display: flex;
+        flex-direction: column;
+        margin-right: 0;
+      }
+    
+      .descriptionDiv{
+        margin-right: 0;
+        
+      }
+      .projectName{
+          font-family: 'Lora, serif';
+          font-size: 20px;
+      }
+    
+    }
+    @media only screen and (min-width: 769px) {
+      .page{
+        display:flex;
+        flex-direction: column;
+      }
+    .headline{
+      color:#ffffff;
+      text-align: center;
+      font-weight: 900;
+        font-size: 80px;
+        font-family: "Lora", serif;
+       /* font-family: "Poppins", Arial, sans-serif;*/
+    }
+    
+    .headlineBox{
+      width:90%;
+      display:flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .headlineBox .fas{
+      color:white;
+      font-size: 60px;
+      cursor: pointer;
+    }
+    .headlineBox .fas:hover{
+      font-size: 75px;
+    }
+    
+    .menu .back{
+      display:flex;
+      flex-direction: row;
+      height:50px !important;
+    }
+    
+    .words{
+      width:30%;
+      margin-top: 2%;
+      margin-bottom: 2%;
+      display: inline-flex;
+      justify-content: space-between;
+      font-weight: bold;
+      color:white;
+    
+    }
+    .infoIcons{
+      width:70%;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+    
+    }
+    .infoIcons .fas{
+      color:#404040;
+      font-size:20px;
+    
+    }
+    .infoIcons .fas .hover{
+      color:#404040;
+    }
+    .infoDiv p{
+      color:#404040;
+      font-size: 13px;
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+    .infoDiv{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      margin-bottom: 5%;
+    }
+    .infoDivButtons{
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        margin-bottom: 5%;
+
+    }
+    .projectButton{
+        transition: all 0.2s ease-in-out;
+        font-size: 13px;
+        background-color: transparent;
+        border: solid;
+        color: #404040;
+        align-self: center;
+        padding: 5%;
+        /* margin: 10px; */
+        border-radius: 7px;
+        cursor: pointer;
+        width: 20vw;
+        margin-bottom: 5%;
+    }
+    .projectButton:hover {
+        background: #404040;
+        border:none;
+        color:white;
+        cursor: pointer;
+      }
+    .projectButton:focus {
+        background: #404040;
+        outline:none;
+        color:white;
+        cursor: pointer;
+      }
+
+    .infoDivHead{
+        display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      margin-bottom: 10%;
+      border-bottom: 1px solid #404040;
+      padding-bottom: 3px
+    }
+    
+    .projectContent{
+    margin-left: 10%;
+    margin-right: 10%;
+    justify-content: center;
+      display: flex;
+      flex-direction: row;
+      margin-top: 5%;
+    }
+    .projectDesc{
+      color: #404040;
+      font-size: 20px;
+      font-weight: lighter;
+      font-family: "Lora", serif;
+      margin-top: 3%;
+    }
+    .projectText{
+        margin-top: 5%;
+        margin-bottom: 5%;
+        font-size: 13px;
+    }
+    
+    .sub_headline{
+        margin-top:5%;
+        margin-left: 20%;
+        margin-right: 20%;
+        text-align: left;
+        font-size: 25px;
+    }
+    .back_button{
+      margin-top:1%;
+      margin-bottom: 1%;
+      margin-left: 1%;
+      color: #404040;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 15px;
+      background-color: transparent;
+      border: none;
+      text-align: center;
+      display: inline-block;
+      cursor: pointer;
+    }
+    
+    .back_button:hover{
+      text-decoration-line: underline;
+      text-decoration-style: solid;
+      cursor: pointer;
+    }
+    .back_button:focus{
+      outline:0;
+    }
+    
+    .back_arrow{
+        margin-left:2%;
+        width:10px;
+        cursor: pointer;
+        color:#404040;
+    }
+    .back_arrow:hover, .back_arrow:focus{
+        text-decoration-line: underline;
+        text-decoration-style: solid;
+        color:#404040;
+        cursor: pointer;
+    }
+    
+      .project_div{
+          background-color: #DFD5EE;
+          height:100%;
+          padding:10px;
+      }
+      .project_intro{
+        margin-top:2%;
+        margin-left: 20%;
+        margin-right: 20%;
+        text-align: left;
+        font-size: 13px;
+      }
+ 
+      .headerImage{
+          margin-top: 3%;
+          text-align: center;
+          width:700px;
+          box-shadow:  3px 5px 6px #ccc
+      }
+      .solution{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+      }
+      .imageCard{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size:15px;
+      }
+      .solutionImg{
+        width:30vw;
+        margin-bottom: 2%;
+      }
+      .videoDiv{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-self: center;
+        margin-bottom: 5%;
+      }
+      .centervideodiv{
+        display: flex;
+      flex-direction: row;
+      justify-content: center;
+      margin-bottom: 7%;
+      }
+
+      .mediaDiv{
+        display: flex;
+        flex-direction: column;
+        margin-right: 10%;
+      }
+      .projectName{
+          font-family: 'Lora, serif';
+          font-size: 30px;
+      }
+      .problem{
+        font-size:13px;
+      }
+    
+    }
