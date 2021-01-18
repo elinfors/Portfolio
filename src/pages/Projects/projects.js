@@ -4,7 +4,7 @@ import history from '../../history'
 import { useHistory } from "react-router-dom";
 import Home from '../HomePage/home'
 var carbon = require('./carbon2.png')
-var ikea = require('./IKEA.png')
+var ikea = require('./ikea.png')
 var flight = require('./flight2.png')
 var chat = require('./chat.PNG')
 var rect1 = require('./Rectangle1.png')
