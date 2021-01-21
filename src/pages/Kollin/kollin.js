@@ -6,7 +6,7 @@ import history from '../../history'
 import { useHistory } from "react-router-dom";
 
 import Footer from "../Footer/footer"
-var kollin = require('./KollinBanner.png')
+var kollin = require('./KollinSolution.png')
 const Kollin = () =>{
     let history = useHistory();
 
@@ -33,7 +33,7 @@ const Kollin = () =>{
         <React.Fragment>
             <div className="menu sticky back">
                 {/*<img onClick={() => RedirectBack()} className="back_arrow"src={arrow}></img>*/}
-                <button onClick={() => RedirectBack()}  className="back_button">BACK</button>
+                <button onClick={() => RedirectBack()}  className="back_button">Home</button>
             </div> 
             <div className="page">
 
@@ -81,46 +81,69 @@ const Kollin = () =>{
                                     </div>
                                     <div className="infoDiv">
                                         <i class="fas fa-user-tag"></i>
-                                        <p>Designer</p>
-                                    </div>
-                                    <div className="infoDiv">
-                                        <i class="fas fa-users"></i>
-                                        <p>3</p>
+                                        <p>UX Designer</p>
                                     </div>
                                     <div className="infoDiv">
                                         <i class="fas fa-wrench"></i>
-                                        <p></p>
+                                        <p>Figma</p>
+                                    </div>
+                                    <div className="infoDiv">
+                                       <p>This UX project was conducted as a consultancy employment for <a className="aHrefLink" href="https://kollin.io" target="_blank" >Kollin</a>, an e-learning platform that makes studying for exams easier for 
+                                        higher education students.
+                                        </p>
                                     </div>
                         </div>
 
                         <div className="projectDesc">
                             Project Description
                         </div>
+                        <div className="projectText">
+                        I was hired to help design the onboarding of a new version of Kollin's website to improve user experience for an upcoming launch. The project involved 
+                        user research, competitor analysis, user story mapping, creating low-fi mockups and user evaluation. 
+                        In collaboration with developers, the new onboarding was implemented and released in the new beta-version.
+
+                        
+                        </div>
                         <div className="projectDesc">
                             Problem
                         </div>
                         <div className="projectText">
+                            Kollin struggled with getting new users to understand their value proposition, and they wanted to increase the conversion rate and the time
+                            spent on the platform. During extensive qualitative, semi-structured, think-aloud interviews several problems were found:
                             <ul>
-                    <li> Students found it difficult to find information about the course offerings at KTH.</li>
-                        <li>Once found, the course information was solely presented through text and a full understanding of course content and structure was restricted.
-                    </li>
-                    <li> Students found it difficult to get an overview of their education. 
-                    </li>
-                        </ul>
+                            <li> 
+                                    Users did not understand what Kollin offered
+                                </li>
+                                <li> 
+                                    Users accidently entered the wrong courses fron the start page
+                                </li>
+                                <li>
+                                    Users did not understand what they would get if they signed up and paid for a course
+                                </li>
+                            </ul>
                         </div>
                         <div className="projectDesc">
                             Solution
                         </div>
                         <div className="projectText">
 
-                        The design and development of an interactive visualization tool for customization and personalization of KTH students’ educational paths
+                        The project resulted in a more clear onboarding process where the users could find a relevant course at the 
+                        top of the landing page. Also, the key offers that Kollin provides is clearly communicated through the landing page,
+                        so that there is no question about what Kollin actually is. Also, in every course that the user can try for free there is a 
+                        banner on top of the page with information about what is unlocked upon registration and payment. 
                         </div>
                         <div className="projectDesc">
                             Design Process
                         </div>
                         <div className="projectText">
-
-                        The design and development of an interactive visualization tool for customization and personalization of KTH students’ educational paths
+                            To understand, and emphasize with, how new users perceived Kollin, 
+                            a discover phase was initiated with think-aloud user tests combined with semi-structured interviews. 
+                            The goal of the user tests was to understand how users that were unfamiliar with Kollin interacted with the platform. 
+                            The discover phase gave valuable insights that were analyzed through a thematic analysis method. 
+                            The key insights were then defined and transferred into simple low-fi mockups through brainstorming sessions and competitive analysis. 
+                            The mockups were shown to users and then iterated on. Because of time constraints with the new launch the deidng process had to be shortened 
+                            and implemented without further testing. However, the design was implemeted and the new platform launched with success, where new users 
+                            found the platform easy to understand and the value proposition was clear upon the home page. 
                         </div>
                 </div>
                 </div>

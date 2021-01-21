@@ -36,7 +36,7 @@ const Nearby = () =>{
         <React.Fragment>
             <div className="menu sticky back">
                 {/*<img onClick={() => RedirectBack()} className="back_arrow"src={arrow}></img>*/}
-                <button onClick={() => RedirectBack()}  className="back_button">BACK</button>
+                <button onClick={() => RedirectBack()}  className="back_button">Home</button>
             </div> 
             <div className="page">
 

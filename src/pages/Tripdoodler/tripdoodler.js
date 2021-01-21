@@ -36,7 +36,7 @@ const TripDoodler = () =>{
         <React.Fragment>
             <div className="menu sticky back">
                 {/*<img onClick={() => RedirectBack()} className="back_arrow"src={arrow}></img>*/}
-                <button onClick={() => RedirectBack()}  className="back_button">BACK</button>
+                <button onClick={() => RedirectBack()}  className="back_button">Home</button>
             </div> 
             <div className="page">
 
@@ -114,7 +114,10 @@ const TripDoodler = () =>{
                             </div>
                             <div className="infoDiv">
                                 
-                                <p>This project was part of a UX-design prototyping course at DTU, and was carried out in collaboration with <a href="https://tripdoodler.com/" target="_blank" style={{textDecoration:'underline'}}>Tripdoodler</a>, a startup company for sustainable travel planning. </p>
+
+                                <p>This project was part of a UX-design prototyping course at DTU, and was carried out in collaboration with <a className="aHrefLink" href="https://tripdoodler.com/" target="_blank">Tripdoodler</a>, a startup company for sustainable travel planning. </p>
+
+                               
                             </div>
 
                         </div>

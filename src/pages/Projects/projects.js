@@ -130,7 +130,7 @@ return(
 
                         <div className="text">
                             <p>DATA VISUALIZATION</p>
-                            <p className="hoverHeadline">Flight Visualization</p>
+                            <p className="hoverHeadline">KTH Flight Tool</p>
                             <p className="hoverText">A visualization tool to help employees and other stakeholders at KTH to make better decisions regarding their flying habits</p>
                             <button className="readMoreButton">READ MORE</button>
                             </div>

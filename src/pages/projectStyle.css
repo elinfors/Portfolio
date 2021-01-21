@@ -38,7 +38,7 @@
     .words{
       margin-top: 2%;
       margin-bottom: 2%;
-      display: inline-flex;
+      display: block;
       justify-content: space-between;
       font-weight: bold;
       width: 80%;
@@ -181,28 +181,17 @@
       display: inline-block;
       cursor: pointer;
     }
-    
+    .back_button:active{
+      color:black;
+    }
     .back_button:hover{
-      text-decoration-line: underline;
-      text-decoration-style: solid;
+      color:#000000;
       cursor: pointer;
     }
     .back_button:focus{
       outline:0;
     }
     
-    .back_arrow{
-      margin-left:2%;
-      width:10px;
-      cursor: pointer;
-      color:#404040;
-    }
-    .back_arrow:hover, .back_arrow:focus{
-      text-decoration-line: underline;
-      text-decoration-style: solid;
-      color:#404040;
-      cursor: pointer;
-    }
     
     .solution{
       display: flex;
@@ -324,12 +313,12 @@
       display: flex;
       flex-direction: row;
       align-items: center;
-      margin-bottom: 5%;
+      margin-bottom: 3%;
     }
     .infoDivButtons{
         display: flex;
         flex-direction: row;
-        justify-content: space-evenly;
+        justify-content: flex-start;
         margin-bottom: 5%;
 
     }
@@ -347,6 +336,7 @@
         width: 150px;
         height: 40px;
         margin-bottom: 5%;
+        margin-right:10px;
     }
     .projectButton:hover {
         background: #404040;
@@ -382,7 +372,7 @@
       color: #404040;
       text-transform: uppercase;
       font-size: 15px;
-      font-weight: bold;
+      font-weight:900;
       margin-top: 3%;
     }
     .projectText{
@@ -403,7 +393,7 @@
       margin-top:1%;
       margin-bottom: 1%;
       margin-left: 1%;
-      color: #404040;
+      color: #7c7c7c;
       text-align: center;
       text-decoration: none;
       display: inline-block;
@@ -414,28 +404,19 @@
       display: inline-block;
       cursor: pointer;
     }
+    .back_button:active{
+      color:black;
+    }
     
     .back_button:hover{
-      text-decoration-line: underline;
-      text-decoration-style: solid;
+      color:#000;
       cursor: pointer;
     }
     .back_button:focus{
       outline:0;
     }
     
-    .back_arrow{
-        margin-left:2%;
-        width:10px;
-        cursor: pointer;
-        color:#404040;
-    }
-    .back_arrow:hover, .back_arrow:focus{
-        text-decoration-line: underline;
-        text-decoration-style: solid;
-        color:#404040;
-        cursor: pointer;
-    }
+
     
       .project_div{
           background-color: #DFD5EE;
@@ -523,6 +504,12 @@
       }
       .projectButtonDownload:hover #downloadIcon{
         color:white !important;
+    }
+    .aHrefLink{
+      color:#e26e6e;
+    }
+    .aHrefLink:hover{
+      color: #404040;
     }
     
     }

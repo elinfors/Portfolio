@@ -41,7 +41,7 @@ const Frontread = () =>{
         <React.Fragment>
             <div className="menu sticky back">
                 {/*<img onClick={() => RedirectBack()} className="back_arrow"src={arrow}></img>*/}
-                <button onClick={() => RedirectBack()}  className="back_button">BACK</button>
+                <button onClick={() => RedirectBack()}  className="back_button">Home</button>
             </div> 
             <div className="page">
 
@@ -114,7 +114,10 @@ const Frontread = () =>{
                                         <p>Figma, Design Thinking, Double Diamond, PACT-analysis, Participatory Evaluation, Proto Personas</p>
                                     </div>
                                     <div className="infoDiv">
-                                        <p>This project was part of a course in e-learning and entrepreneurship at DTU, Danish Technical University, in collaboration with the e-learning company <a href="https://www.frontread.com/en/" target="_blank" style={{textDecoration:'underline'}}>Frontread</a>. </p>
+
+                                        <p>This project was part of a course in e-learning and entrepreneurship at DTU, Danish Technical University, in collaboration with the e-learning company <a className="aHrefLink" href="https://www.frontread.com/en/" target="_blank">Frontread</a>. </p>
+
+
                                     </div>
     
                         </div>
