@@ -36,7 +36,7 @@ const TripDoodler = () =>{
         <React.Fragment>
             <div className="menu sticky back">
                 {/*<img onClick={() => RedirectBack()} className="back_arrow"src={arrow}></img>*/}
-                <button onClick={() => RedirectBack()}  className="back_button">BACK</button>
+                <button onClick={() => RedirectBack()}  className="back_button">Home</button>
             </div> 
             <div className="page">
 
@@ -91,6 +91,15 @@ const TripDoodler = () =>{
                                 <p style={{fontSize:'15px'}}>UX DESIGN PROTOTYPING</p>
                                 <p className="projectName">Tripdoodler App</p>
                             </div>
+                            <div className="infoDivButtons">
+                                <a href="https://www.figma.com/proto/6fIwnmAAley0iGVa4oK2Jl/UX-project-tripDoodler?node-id=750%3A675&scaling=scale-down" target="_blank">
+                                    <button className="projectButton">PROTOTYPE</button>
+                                </a>
+                                <a href="https://www.figma.com/proto/6fIwnmAAley0iGVa4oK2Jl/UX-project-tripDoodler?node-id=716%3A0&scaling=min-zoom" target="_blank">
+                                    <button className="projectButton">LANDING PAGE</button>
+                                </a>
+
+                            </div>
                             <div className="infoDiv">
                                 <i className="fas fa-user-tag"></i>
                                 <p>Designer</p>
@@ -105,17 +114,9 @@ const TripDoodler = () =>{
                             </div>
                             <div className="infoDiv">
                                 
-                                <p>This project was part of a UX-design prototyping course at DTU, and was carried out in collaboration with Tripdoodler, a startup company for sustainable travel planning. </p>
+                                <p>This project was part of a UX-design prototyping course at DTU, and was carried out in collaboration with <a className="aHrefLink" href="https://tripdoodler.com/" target="_blank">Tripdoodler</a>, a startup company for sustainable travel planning. </p>
                             </div>
-                            <div className="infoDivButtons">
-                                <a href="https://www.figma.com/proto/6fIwnmAAley0iGVa4oK2Jl/UX-project-tripDoodler?node-id=750%3A675&scaling=scale-down" target="_blank">
-                                    <button className="projectButton">PROTOTYPE</button>
-                                </a>
-                                <a href="https://www.figma.com/proto/6fIwnmAAley0iGVa4oK2Jl/UX-project-tripDoodler?node-id=716%3A0&scaling=min-zoom" target="_blank">
-                                    <button className="projectButton">LANDING PAGE</button>
-                                </a>
 
-                            </div>
                         </div>
 
 

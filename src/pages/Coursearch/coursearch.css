@@ -14,6 +14,16 @@
     background-size: cover;
     height:100vh;
   }
+  .Coursevideo{
+    border: solid;
+    border-width: thin;
+    border-color: transparent;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    width:80vw;
+  }
+  .Coursevideo:focus{
+    outline:none;
+  }
   
   }
   @media only screen and (min-width: 769px) {
@@ -33,6 +43,16 @@
     justify-content: center;
     background-attachment: fixed;
     background-position: center;
+  }
+  .Coursevideo{
+    border: solid;
+    border-width: thin;
+    border-color: transparent;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    width:30vw;
+  }
+  .Coursevideo:focus{
+    outline:none;
   }
   
   }
