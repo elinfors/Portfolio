@@ -114,7 +114,10 @@ const Frontread = () =>{
                                         <p>Figma, Design Thinking, Double Diamond, PACT-analysis, Participatory Evaluation, Proto Personas</p>
                                     </div>
                                     <div className="infoDiv">
+
                                         <p>This project was part of a course in e-learning and entrepreneurship at DTU, Danish Technical University, in collaboration with the e-learning company <a className="aHrefLink" href="https://www.frontread.com/en/" target="_blank">Frontread</a>. </p>
+
+
                                     </div>
     
                         </div>

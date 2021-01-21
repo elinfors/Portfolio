@@ -114,7 +114,10 @@ const TripDoodler = () =>{
                             </div>
                             <div className="infoDiv">
                                 
+
                                 <p>This project was part of a UX-design prototyping course at DTU, and was carried out in collaboration with <a className="aHrefLink" href="https://tripdoodler.com/" target="_blank">Tripdoodler</a>, a startup company for sustainable travel planning. </p>
+
+                               
                             </div>
 
                         </div>
