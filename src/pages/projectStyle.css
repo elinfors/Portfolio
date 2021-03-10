@@ -92,6 +92,7 @@
         padding: 2%;
         /* margin: 10px; */
         border-radius: 7px;
+        border-width: 1px;
         cursor: pointer;
         width: 80vw;
         margin-bottom: 5%;
@@ -112,6 +113,7 @@
         border: solid;
         font-size: 13px;
         border-radius: 7px;
+        border-width: 1px;
         border-color: #404040;
         padding: 1%;
         background-color: transparent;
