@@ -20,7 +20,7 @@
       border-width: thin;
       border-color: transparent;
       box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
-      width:250px;
+      width:50%;
     }
     .Nearbyvideo:focus{
       outline:none;

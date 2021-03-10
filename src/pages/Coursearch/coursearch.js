@@ -87,7 +87,7 @@ const Coursearch = () =>{
                                         <p className="projectName">Coursearch</p>
                                     </div>
                                     <div className="infoDivButtons">
-                                        <a href="https://appetize.io/app/f5dgtkgkya5xefzh3dyfqpa3g8?device=iphone11pro&scale=75&orientation=portrait&osVersion=13.3&deviceColor=black" target="_blank">
+                                        <a href="https://coursearch-d578e.web.app/" target="_blank">
                                             <button className="projectButton">COURSEARCH TOOL</button>
                                         </a>
                                         <a href="https://github.com/elinfors/NARArepo" target="_blank">
