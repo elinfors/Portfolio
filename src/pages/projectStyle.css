@@ -12,9 +12,9 @@
       .headline{
         color:#ffffff;
         text-align: center;
-        font-weight: 900;
-          font-size: 40px;
-          font-family: "Poppins", Arial, sans-serif;
+        font-weight: 500;
+          font-size: 50px;
+          font-family: "Lora", serif;
       }
       
       .headlineBox{
@@ -33,6 +33,8 @@
     .back button{
     display:block;
     flex-direction: row;
+    height:30px;
+    font-size: 20px;
     }
 
     .words{
@@ -61,7 +63,7 @@
     }
     .infoDiv p{
       color:#404040;
-      font-size: 13px;
+      font-size: 15px;
       margin-top: 0;
       margin-bottom: 0;
     }
@@ -79,32 +81,7 @@
       margin-bottom: 5%;
 
   }
-  .projectButton{
-      transition: all 0.2s ease-in-out;
-      font-size: 13px;
-      background-color: transparent;
-      border: solid;
-      color: #404040;
-      align-self: center;
-      padding: 5%;
-      /* margin: 10px; */
-      border-radius: 7px;
-      cursor: pointer;
-      width: 20vw;
-      margin-bottom: 5%;
-  }
-  .projectButton:hover {
-      background: #404040;
-      border:none;
-      color:white;
-      cursor: pointer;
-    }
-  .projectButton:focus {
-      background: #404040;
-      outline:none;
-      color:white;
-      cursor: pointer;
-    }
+
     .projectButton{
         transition: all 0.2s ease-in-out;
         font-size: 13px;
@@ -131,6 +108,30 @@
         color:white;
         cursor: pointer;
       }
+      .projectButtonDownload{
+        border: solid;
+        font-size: 13px;
+        border-radius: 7px;
+        border-color: #404040;
+        padding: 1%;
+        background-color: transparent;
+        width: 80vw;
+        height: 40px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        cursor: pointer;
+        transition: all 0.2s ease-in-out;
+      }
+      .projectButtonDownload:hover{
+        background-color: #404040 !important;
+        color:white !important;
+      }
+      .projectButtonDownload:hover #downloadIcon{
+        color:white !important;
+    }
 
 
     .infoDivHead{
@@ -152,9 +153,8 @@
     .projectDesc{
     color: #404040;
     text-transform: uppercase;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: bold;
-    font-family: "Lora", serif;
     margin-top: 3%;
     }
     
@@ -238,8 +238,15 @@
       }
       .projectName{
           font-family: 'Lora, serif';
-          font-size: 20px;
+          font-size: 30px;
       }
+      .aHrefLink{
+        color:#e26e6e;
+      }
+      .aHrefLink:hover{
+        color: #404040;
+      }
+      
     
     }
     @media only screen and (min-width: 769px) {
@@ -250,7 +257,7 @@
     .headline{
       color:#ffffff;
       text-align: center;
-      font-weight: 900;
+      font-weight: 500;
         font-size: 80px;
         font-family: "Lora", serif;
        /* font-family: "Poppins", Arial, sans-serif;*/
@@ -283,7 +290,7 @@
       margin-top: 2%;
       margin-bottom: 2%;
       display: inline-flex;
-      justify-content: space-between;
+      justify-content: space-around;
       font-weight: bold;
       color:white;
     

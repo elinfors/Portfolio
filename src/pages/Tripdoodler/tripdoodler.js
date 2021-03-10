@@ -25,9 +25,9 @@ const TripDoodler = () =>{
         history.push("/frontread");
         console.log("clicked")
       }
-      const RedirectFlight = () =>{
+      const RedirectIkea = () =>{
 
-        history.push("/flight");
+        history.push("/ikea");
         console.log("clicked")
       }
 
@@ -42,7 +42,7 @@ const TripDoodler = () =>{
 
                 <div className="box">
                 <div className="headlineBox">
-                        <i className="fas fa-chevron-left" onClick={()=>{RedirectFlight()}} ></i>
+                        <i className="fas fa-chevron-left" onClick={()=>{RedirectIkea()}} ></i>
                         <div className="headline">
                         Tripdoodler
                         </div>
@@ -53,13 +53,13 @@ const TripDoodler = () =>{
                                 UX Design
                             </div>
                             <div>
-                            |
+                            
                             </div>
                             <div>
                                 Interactive Prototyping
                             </div>
                             <div>
-                            |
+                            
                             </div>
                             <div>
                                 Figma

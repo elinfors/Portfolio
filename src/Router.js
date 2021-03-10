@@ -10,6 +10,7 @@ import Frontread from"./pages/Frontread/frontread"
 import Nearby from"./pages/Nearby/nearby"
 import Kollin from"./pages/Kollin/kollin"
 import Flight from"./pages/Flight/flight"
+import Ikea from "./pages/Ikea/Ikea"
 
 const Router = () => {
   return (
@@ -23,6 +24,7 @@ const Router = () => {
       <Route exact path='/kollin' component={Kollin}/>
       <Route exact path='/flight' component={Flight}/>
       <Route exact path='/about' component={About}/>
+      <Route exact path='/ikea' component={Ikea}/>
     </Switch>
   )
 }

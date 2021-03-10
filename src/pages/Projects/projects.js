@@ -48,15 +48,23 @@ const Projects = () =>{
         history.push("/flight");
         console.log("clicked")
       }
+      const RedirectIkea = () =>{
+
+        history.push("/ikea");
+        console.log("clicked")
+      }
 
 return(
     <React.Fragment>
     <div className="projects">
+        <div className="portfolioText">
+            PORTFOLIO
+        </div>
         <div className="title">
-            RECENT PROJECTS
+            Recent Projects
         </div>
         <div className="subTitle">
-            Here are some of my selected projects made as a student and project employed.
+            Below you can find some of my selected projects made as a student and project employed
         </div>
 
         <div className='projRow'>
@@ -140,7 +148,7 @@ return(
 
         </div>
         <div className='projRow'>
-            <div className='projCol' onClick={()=>{RedirectFlight()}}>
+            <div className='projCol' onClick={()=>{RedirectIkea()}}>
             <img  className = "image" src={ikea} alt="Avatar"></img>
                     <div className="overlay"></div>
 

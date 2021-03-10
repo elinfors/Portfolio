@@ -58,13 +58,13 @@ const Frontread = () =>{
                                 E-learning
                             </div>
                             <div>
-                            |
+                            
                             </div>
                             <div>
                                 Gamification
                             </div>
                             <div>
-                            |
+                            
                             </div>
                             <div>
                                 Product Development
@@ -126,7 +126,7 @@ const Frontread = () =>{
                             Project Description
                         </div>
                         <div className="projectText">
-                        Frontread provides an e-learning platform for school students with the purpose of practising- and improving reading speed and is currently being used by more than 150 000 students in over 800 schools. The aim of the project was to redesign the e-learning platform, so that students would become more self-driven and motivated without needing support and help from teachers. 
+                        Frontread provides an e-learning platform for school students with the purpose of practising and improving reading speed and is currently being used by more than 150 000 students in over 800 schools. The aim of the project was to redesign the e-learning platform, so that students would become more self-driven and motivated without needing support and help from teachers. 
 
                         </div>
                         <div className="projectDesc">

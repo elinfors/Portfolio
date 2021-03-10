@@ -54,13 +54,11 @@ const Coursearch = () =>{
                                 Web Development
                             </div>
                             <div>
-                            |
                             </div>
                             <div>
                                 Visualization
                             </div>
                             <div>
-                            |
                             </div>
                             <div>
                                 Data Processing
@@ -172,7 +170,7 @@ const Coursearch = () =>{
 
                         </div>
                         <div className="projectText">
-                        When all data from the pre-study was col-lected and analyzed, we had a brainstorming session to 
+                        When all data from the pre-study was collected and analyzed, we had a brainstorming session to 
                         figure out the best way to solve the issues that arose in the pre-study. The “best way” was based on 
                         previous research in the field of information visualization and the brainstorming was in the form of concept sketching with the purpose of generating a lot of ideas. 
                         The design was then created in Figma and was based on the answers from the survey, 
