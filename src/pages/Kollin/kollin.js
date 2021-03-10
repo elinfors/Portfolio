@@ -50,13 +50,13 @@ const Kollin = () =>{
                                 UX Design
                             </div>
                             <div>
-                            |
+                            
                             </div>
                             <div>
                                 User Research
                             </div>
                             <div>
-                            |
+                            
                             </div>
                             <div>
                                 Onboarding

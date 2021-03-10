@@ -14,6 +14,8 @@ import ContactForm from "../Contact/contact"
 import Navbar from "../Navbar/navbar"
 import Skills from "../Skills/skills"
 import useCollapse from 'react-collapsed';
+
+var logo = require('./EFlogo.png')
 const HomeScreen = () => {
   const { getCollapseProps, getToggleProps, isExpanded } = useCollapse();
   let history = useHistory();
@@ -98,14 +100,14 @@ const HomeScreen = () => {
           </div>
         */ }
         <nav class="navbar navbar-expand-lg navbar-light" style={{backgroundColor: '#f0f0f0'}}>
-          <a class="navbar-brand" onClick={executeScrollUp}>ELIN</a>
+          <a class="navbar-brand" onClick={executeScrollUp}><img src={logo} style={{height:'40px'}}></img></a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
 
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
-              <li class="nav-item active">
+              <li class="nav-item">
                 <a class="nav-link" onClick={executeScrollUp}>Home</a>
               </li>
               <li class="nav-item">
@@ -135,30 +137,20 @@ const HomeScreen = () => {
               <div id="intro" className="intro" >
 
                 
-                  <p className="name">ELIN FORSBERG</p>
+                
                   <div className="introRow">
                     <div className="words2">
-                      <div>
-                          UX Designer
+                      <p className="hi">HI! </p>
+                      <div className="name">
+                          I'm Elin Forsberg, a UX Designer, Web Developer and M.Sc. Student at KTH in Stockholm.
                       </div>
-                      <div>
-                        |
-                      </div>
-                      <div>
-                          Web Developer
-                      </div>
-                      <div>
-                        |
-                      </div>
-                      <div>
-                          MSc Student
-                      </div>
+                      <button className="discoverButton" onClick={executeScrollProjects}>
+                      DISCOVER
+                    </button>
       
                   </div>
                     
-                    <button className="discoverButton" onClick={executeScrollProjects}>
-                      DISCOVER
-                    </button>
+                   
                   </div>
                   <div className="getInTouch">
                     Want to get in touch?
@@ -205,18 +197,23 @@ const HomeScreen = () => {
                     <a  href="mailto:forsbergselin@gmail.com" target="_blank">
                       <i className="fas fa-envelope-square gray"></i>
                       </a>
+                      <a  href="mailto:forsbergselin@gmail.com" target="_blank">
                       <p className="contactText">forsbergselin@gmail.com</p>
+                      </a>
+                      
                       </div>
 
                       <div className="contactDiv">
                       <a href="https://www.linkedin.com/in/elinfors/">
                     <i className="fab fa-linkedin gray"></i>
                     </a>
+                    <a href="https://www.linkedin.com/in/elinfors/">
                     <p className="contactText">LinkedIn</p>
+                    </a>
                     </div>
                     
                   </div>
-                <ContactForm/>
+
                 </div>
             
             

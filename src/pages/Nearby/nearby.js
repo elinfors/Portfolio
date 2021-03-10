@@ -50,16 +50,16 @@ const Nearby = () =>{
                     </div>
                         <div className="words">
                             <div>
-                                UX Design
+                                Product Design
                             </div>
                             <div>
-                            |
+                            
                             </div>
                             <div>
                                 Digitalization
                             </div>
                             <div>
-                            |
+                            
                             </div>
                             <div>
                                 Mobile Development
@@ -205,7 +205,7 @@ const Nearby = () =>{
                         A qualitative user testing was conducted with the aim to gain insight into how users 
                         perceive and move through the prototype. The user testing was in the form of a 
                         think-aloud usability test of the clickable prototype together with a semi-structured interview.
-                        user tests were conducted with us-ers that had no previous experience with online treatments for 
+                        user tests were conducted with users that had no previous experience with online treatments for 
                         eating disorders, hence the user experience was the parameter that was tested. 
                         The users were instructed to perform tasks throughout the prototype, 
                         thus examining the user flow, what was apparent, and what could be improved.
