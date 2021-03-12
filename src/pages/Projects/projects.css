@@ -9,7 +9,7 @@
         margin-right: 10%;
         display: flex;
         flex-direction: column;
-        text-align: center;
+        text-align: left;
         margin-top: 20%;
       }
     .projRow{
@@ -26,7 +26,6 @@
         font-size: 40px;
         color: #404040;
         font-weight: lighter;
-        text-align: center;
         font-family: 'Lora';
       }  
       .hoverHeadline{
@@ -54,7 +53,8 @@
   }
   .readMoreButton:hover{
     background-color: white;
-    border:none;
+    border:solid;
+    border-color:white;
     color: #404040;
     text-decoration: none;
     display: inline-block;
@@ -68,7 +68,7 @@
 
 .projects{
     justify-content: center;
-    text-align: center;
+    text-align: left;
     margin-left: 20%;
     margin-right: 20%;
     display: flex;
@@ -149,7 +149,8 @@
   }
   .readMoreButton:hover{
     background-color: white;
-    border:none;
+    border:solid;
+    border-color:white;
     color: #404040;
     padding: 15px 32px;
     text-align: center;
@@ -189,7 +190,6 @@
     margin-bottom: 3%;
     color: #404040;
     font-weight: lighter;
-    text-align: center;
     font-family: 'Lora, serif';
   }  
   .subTitle{
@@ -197,7 +197,7 @@
     margin-bottom: 5%;
     color: #404040;
     font-weight: lighter;
-    text-align: center;
+
 
   }
 }

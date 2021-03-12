@@ -6,7 +6,7 @@ import { useHistory } from "react-router-dom";
 
 import Footer from "../Footer/footer"
 var flight = require('./FlightSolution2.png')
-
+var logo = require('../HomePage/EFlogoWhite.png')
 const Flight = () =>{
     let history = useHistory();
 
@@ -30,19 +30,36 @@ const Flight = () =>{
 
       return(
         <React.Fragment>
-            <div className="menu sticky back">
-                {/*<img onClick={() => RedirectBack()} className="back_arrow"src={arrow}></img>*/}
-                <button onClick={() => RedirectBack()}  className="back_button">Home</button>
-            </div> 
+            
+            <nav class="navbar navbar-expand-lg navbar-dark" style={{backgroundColor: 'rgb(22 22 22)', height:'5%'}}>
+          <a class="navbar-brand" onClick={()=> RedirectBack()}><img src={logo} style={{height:'40px'}}></img></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link" onClick={()=> RedirectBack()} style={{color:'#ffffff'}}>Home</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
             <div className="page">
 
                 <div className="box6">
                     <div className="headlineBox">
-                        <i class="fas fa-chevron-left" onClick={()=>{RedirectKollin()}}></i>
+                    <div className="arrowDiv">
+                        <i className="fas fa-chevron-left" onClick={()=>{RedirectKollin()}}></i>
+                        <p>Previous project</p>
+                        </div>
                         <div className="headline">
                         KTH Flight Tool
                         </div>
-                        <i class="fas fa-chevron-right" onClick={()=>{RedirectIkea()}}></i>
+                        <div className="arrowDiv">
+                        <i className="fas fa-chevron-right" onClick={()=>{RedirectIkea()}}></i>
+                        <p>Next project</p>
+                        </div>
                     </div>
                         <div className="words">
                             <div>
