@@ -300,6 +300,12 @@ body {
   .nav-item{
     cursor: pointer;
   }
+  .nav-item:hover{
+    text-decoration: underline;
+  }
+  .nav-item:focus{
+    text-decoration: underline;
+  }
   .nav-item:active{
     text-decoration: underline;
   }

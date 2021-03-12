@@ -8,9 +8,6 @@ return (
         <p id="copyright">
         ©2021 by Elin Forsberg
         </p>
-        <p id='FooterLeft'>
-          forsbergselin@gmail.com
-        </p>
         </div>
 
       

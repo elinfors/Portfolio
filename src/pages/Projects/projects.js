@@ -64,7 +64,7 @@ return(
             Recent Projects
         </div>
         <div className="subTitle">
-            Below you can find some of my selected projects made as a student and project employed
+            Some of my selected work made as a student and project employed, click on the pictures to read more about each project!
         </div>
 
         <div className='projRow'>
@@ -73,15 +73,26 @@ return(
                     <div className="overlay"></div>
 
                             <div className="text">
-                                <p>APP DESIGN</p>
+                                <p>UX/UI DESIGN</p>
                                 <p className="hoverHeadline">Tripdoodler</p>
                                 <p className="hoverText">Design of mobile application for rating and sharing sustainable travel experiences</p>
                                 <button className="readMoreButton">READ MORE</button>
                             </div>
 
                
+            </div>    
+            <div className='projCol' onClick={() => RedirectCoursearch()}>
+            <img  className = "image" src={course} alt="Avatar"></img>
+                    <div className="overlay"></div>
+
+                        <div className="text">
+                            <p>DATA VISUALIZATION | FRONTEND DEVELOPMENT</p>
+                            <p className="hoverHeadline">Coursearch</p>
+                            <p className="hoverText">Design and development of an interactive visualization tool for course search and customization of KTH students’ educational paths </p>
+                            <button className="readMoreButton">READ MORE</button>
+                            </div>
             </div>
-            <div className='projCol' onClick={()=>{RedirectFrontread()}}>
+           {/* <div className='projCol' onClick={()=>{RedirectFrontread()}}>
             <img  className = "image" src={frontread} alt="Avatar"></img>
                     <div className="overlay"></div>
 
@@ -93,6 +104,7 @@ return(
                             </div>
                         
             </div>
+            */}
             </div>
             <div className='projRow'>
             <div className='projCol' onClick={()=>{RedirectNearby()}}>
@@ -100,27 +112,12 @@ return(
                     <div className="overlay"></div>
 
                         <div className="text">
-                            <p>APP DESIGN AND DEVELOPMENT</p>
+                            <p>MOBILE DEVELOPMENT | UX DESIGN</p>
                             <p className="hoverHeadline">NearBy</p>
                             <p className="hoverText">Design and development of mobile application for self registration of meals during online treatment for eating disorders</p>
                             <button className="readMoreButton">READ MORE</button>
                             </div>
             </div>
-
-    
-            <div className='projCol' onClick={() => RedirectCoursearch()}>
-            <img  className = "image" src={course} alt="Avatar"></img>
-                    <div className="overlay"></div>
-
-                        <div className="text">
-                            <p>WEB DESIGN AND DEVELOPMENT</p>
-                            <p className="hoverHeadline">Coursearch</p>
-                            <p className="hoverText">Design and development of an interactive visualization tool for course search and customization of KTH students’ educational paths </p>
-                            <button className="readMoreButton">READ MORE</button>
-                            </div>
-            </div>
-            </div>
-            <div className='projRow'>
             <div className='projCol' onClick={()=>{RedirectKollin()}}>
             <img  className = "image" src={kollin} alt="Avatar"></img>
                     <div className="overlay"></div>
@@ -132,22 +129,22 @@ return(
                             <button className="readMoreButton">READ MORE</button>
                             </div>
             </div>
+
+
+            </div>
+            <div className='projRow'>
             <div className='projCol' onClick={()=>{RedirectFlight()}}>
             <img  className = "image" src={flight} alt="Avatar"></img>
                     <div className="overlay"></div>
 
                         <div className="text">
-                            <p>DATA VISUALIZATION</p>
+                            <p>DATA VISUALIZATION | FRONTEND DEVELOPMENT</p>
                             <p className="hoverHeadline">KTH Flight Tool</p>
                             <p className="hoverText">A visualization tool to help employees and other stakeholders at KTH to make better decisions regarding their flying habits</p>
                             <button className="readMoreButton">READ MORE</button>
                             </div>
            
             </div>
-            
-
-        </div>
-        <div className='projRow'>
             <div className='projCol' onClick={()=>{RedirectIkea()}}>
             <img  className = "image" src={ikea} alt="Avatar"></img>
                     <div className="overlay"></div>
@@ -160,6 +157,11 @@ return(
                             </div>
            
             </div>
+            
+
+        </div>
+        <div className='projRow'>
+            
         </div>
 
 

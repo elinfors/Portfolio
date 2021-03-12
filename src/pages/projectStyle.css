@@ -159,7 +159,11 @@
     font-weight: bold;
     margin-top: 3%;
     }
-    
+    .processImg{
+      width:100%;
+      margin-top: 10%;
+      margin-bottom: 10%;
+    }
     
     .sub_headline{
       margin-top:5%;
@@ -274,11 +278,11 @@
     }
     .headlineBox .fas{
       color:white;
-      font-size: 60px;
+      font-size: 40px;
       cursor: pointer;
     }
     .headlineBox .fas:hover{
-      font-size: 75px;
+      font-size: 50px;
     }
     
     .menu .back{
@@ -296,6 +300,12 @@
       font-weight: bold;
       color:white;
     
+    }
+
+    .arrowDiv{
+      display: flex;
+      flex-direction: column;
+      color:white;
     }
     .infoIcons{
       width:70%;
@@ -389,6 +399,42 @@
         margin-bottom: 5%;
         font-size: 15px;
         line-height: 1.5;
+    }
+    .processImg{
+      width:100%;
+      margin-bottom: 10%;
+      margin-top: 10%;
+    }
+    .designProcess{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+    .designProcessCard{
+      display: flex;
+      justify-content: ;
+      padding:10px;
+      flex-direction: column;
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
+      background-color: white;
+      transition: 0.3s;
+      border-radius: 5px;
+      width:18%;
+      text-align: center;
+    }
+
+  #processIcon{
+    align-self: center;
+    width:80%;
+    font-size:40px;
+    padding: 10px;
+    color:rgb(36, 47, 212);
+    margin:5%  !important;
+  }
+  
+    .designProcessContainer{
+      margin-top: 10px;
+      justify-content: flex-end;
     }
     
     .sub_headline{

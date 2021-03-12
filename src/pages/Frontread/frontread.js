@@ -13,7 +13,7 @@ var overview = require('./overview.png')
 var progress = require('./progress.png')
 var theme1 = require('./theme1.png')
 var theme2 = require('./theme2.png')
-
+ var logo = require('../HomePage/EFlogoWhite.png')
 
 
 const Frontread = () =>{
@@ -39,10 +39,21 @@ const Frontread = () =>{
 
     return(
         <React.Fragment>
-            <div className="menu sticky back">
-                {/*<img onClick={() => RedirectBack()} className="back_arrow"src={arrow}></img>*/}
-                <button onClick={() => RedirectBack()}  className="back_button">Home</button>
-            </div> 
+           
+            <nav class="navbar navbar-expand-lg navbar-dark" style={{backgroundColor: 'rgb(22 22 22)', height:'5%'}}>
+          <a class="navbar-brand" onClick={()=> RedirectBack()}><img src={logo} style={{height:'40px'}}></img></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link" onClick={()=> RedirectBack()} style={{color:'#ffffff'}}>Home</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
             <div className="page">
 
                 <div className="box2">

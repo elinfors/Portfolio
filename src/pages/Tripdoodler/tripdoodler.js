@@ -7,9 +7,15 @@ import Footer from "../Footer/footer"
 
 
 var solution = require('./TripSolution.png')
+var solution2 = require('./TripSolution2.png')
 var video = require('../../TripVid.mp4')
 var figma = require('./Figma.PNG')
 var userflow = require('./UserFlow.png')
+var logo = require('../HomePage/EFlogoWhite.png')
+var process = require('./TripProcess.png')
+var usm = require('./TripUSM.png')
+var flow = require('./TripFlow.png')
+var sketch = require('./TripSketch.png')
 
 
 const TripDoodler = () =>{
@@ -20,9 +26,9 @@ const TripDoodler = () =>{
         history.push("/");
         console.log("clicked")
       }
-      const RedirectFrontread = () =>{
+      const RedirectCourse = () =>{
 
-        history.push("/frontread");
+        history.push("/coursearch");
         console.log("clicked")
       }
       const RedirectIkea = () =>{
@@ -34,19 +40,35 @@ const TripDoodler = () =>{
 
     return(
         <React.Fragment>
-            <div className="menu sticky back">
-                {/*<img onClick={() => RedirectBack()} className="back_arrow"src={arrow}></img>*/}
-                <button onClick={() => RedirectBack()}  className="back_button">Home</button>
-            </div> 
+        <nav class="navbar navbar-expand-lg navbar-dark" style={{backgroundColor: 'rgb(22 22 22)', height:'5%'}}>
+          <a class="navbar-brand" onClick={()=> RedirectBack()}><img src={logo} style={{height:'40px'}}></img></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link" onClick={()=> RedirectBack()} style={{color:'#ffffff'}}>Home</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
             <div className="page">
 
                 <div className="box">
                 <div className="headlineBox">
+                    <div className="arrowDiv">
                         <i className="fas fa-chevron-left" onClick={()=>{RedirectIkea()}} ></i>
+                        <p>Previous project</p>
+                        </div>
                         <div className="headline">
                         Tripdoodler
                         </div>
-                        <i className="fas fa-chevron-right" onClick={()=>{RedirectFrontread()}}></i>
+                        <div className="arrowDiv">
+                        <i className="fas fa-chevron-right" onClick={()=>{RedirectCourse()}}></i>
+                        <p>Next project</p>
+                        </div>
                     </div>
                         <div className="words">
                             <div>
@@ -69,7 +91,7 @@ const TripDoodler = () =>{
                 </div>
                 
                 <div className="projectContent">
-
+                
                 <div className="mediaDiv">
 
                          <div className="centervideodiv">
@@ -80,6 +102,7 @@ const TripDoodler = () =>{
                         <img className="solutionImg"src={solution}></img>
 
                     </div>
+                
                     <div className="descriptionDiv">
 
 
@@ -134,6 +157,9 @@ const TripDoodler = () =>{
                 </div>
                 <div className="projectText">
                     Our team was given the assignment to create the UX and UI for:
+                    <div className=""> 
+
+                    </div>
                     <ul>
                         <li>Post-travel user-driven rating of experiences based on set sustainability parameters</li>
                         <li>Sharing past travel plans with friends in TripDoodler.</li>
@@ -150,27 +176,48 @@ const TripDoodler = () =>{
                     <li>TripDoodlers existing platform does not support mobile use</li>
                     </ul>
                 </div>
-                 <div className="projectDesc">
-                   SOLUTION
-                </div>
 
-                <div className="projectText">
-                <ul>
-                    <li>Mobile-application for travellers on-the-go</li>
-
-                    <li>Seamless rating of post-travel experiences</li>
-
-                    <li>Social community and profiles</li>
-
-                    <li>Search function so travellers can easily search for travel items that has been rated by people in their community</li>
-                </ul>
-
-                </div>
                 <div className="projectDesc">
                     DESIGN PROCESS
                 </div>
                 <div className="projectText">
+                    {/*
+                    <div className="designProcess">
 
+                        <div class="designProcessCard">
+                           <i id="processIcon" class="fas fa-search"></i>
+                            <div class="designProcessContainer">
+                                <p>Discover</p>
+                            </div>
+                        </div>
+                      
+                        <div className="designProcessCard">
+                        <i id="processIcon" class="far fa-lightbulb"></i>
+                        <div class="designProcessContainer">
+                                <p>Ideation</p>
+                            </div>
+                        </div>
+                        <div className="designProcessCard">
+                        <i id="processIcon" class="fas fa-pencil-alt"></i>
+                        <div class="designProcessContainer">
+                                <p>Sketching</p>
+                            </div>
+                        </div>
+                        <div className="designProcessCard">
+                        <i id="processIcon" class="fas fa-tools"></i>
+                        <div class="designProcessContainer">
+                                <p>Prototyping</p>
+                            </div>
+                        </div>
+                        <div className="designProcessCard">
+                        <i id="processIcon" class="fas fa-mobile-alt"></i>
+                        <div class="designProcessContainer">
+                                <p>User testing</p>
+                            </div>
+                        </div>
+                    </div>
+                    */}
+                    <img className="processImg" src={process}></img>
                     <div>
                         In order to understand the problem from the client’s point of view, we met with the CEO over an online, semi-structured interview. From the interview it was clear that the core problem Tripdoodler had was how to design the rating of travels, and how they should be shared in a user’s community. The web platform that was under construction did not yet have such functionalities.  Some questions that arose were:
                     </div>
@@ -180,8 +227,16 @@ const TripDoodler = () =>{
                     <li>How can we incorporate trust in the ratings, so that they function as inspiration for more sustainable travel choices?</li>
                     <li>How can we make users of Tripdoodler make sustainable choices when they are already on a trip?</li>
                     </ul>
+
+                    <div>
+                        We began the ideation process by creating a first user flow of how the user's should navigate through the application. 
+                        
+                    </div>
+                    <div><img className="processImg" src={flow}></img>
+                    </div>
                     <div>
                     Because of time constraints,  we chose to work with fast, iterative UX-prototyping, focusing on creating an MVP. Instead of spending much more time on researching the problem we began to sketch initial ideas as low-fi wireframes in Figma. 
+                    <img className="processImg" src={sketch}></img>
                     </div>
                 </div>
 
@@ -196,7 +251,19 @@ const TripDoodler = () =>{
                 
                 </ul>
                 </div>
+                <div>
+                    During the process, a visual User Story Map was constantly updated and analyzed. This to make sure that all required functionalities were focused on the goals of the application.
+                    <img className="processImg" src={usm}></img>
+                </div>
 
+                <div className="projectDesc">
+                   SOLUTION
+                </div>
+
+                <div className="projectText">
+                Mobile-application for travellers on-the-go, with focus on the seamless ratings of post-travel experiences and the social community. A search function was implemented so that travellers can easily search for travel items that has been rated by people in their community.
+                </div>
+                <img className="processImg" src={solution2}></img>
                 </div>
 
                 </div>

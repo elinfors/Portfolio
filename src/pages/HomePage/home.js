@@ -15,7 +15,7 @@ import Navbar from "../Navbar/navbar"
 import Skills from "../Skills/skills"
 import useCollapse from 'react-collapsed';
 
-var logo = require('./EFlogo.png')
+var logo = require('./EFlogoWhite.png')
 const HomeScreen = () => {
   const { getCollapseProps, getToggleProps, isExpanded } = useCollapse();
   let history = useHistory();
@@ -99,7 +99,7 @@ const HomeScreen = () => {
             
           </div>
         */ }
-        <nav class="navbar navbar-expand-lg navbar-light" style={{backgroundColor: '#f0f0f0'}}>
+        <nav class="navbar navbar-expand-lg navbar-dark" style={{backgroundColor: 'rgb(22 22 22)', height:'5%'}}>
           <a class="navbar-brand" onClick={executeScrollUp}><img src={logo} style={{height:'40px'}}></img></a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -108,16 +108,16 @@ const HomeScreen = () => {
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
               <li class="nav-item">
-                <a class="nav-link" onClick={executeScrollUp}>Home</a>
+                <a class="nav-link" onClick={executeScrollUp} style={{color:'#ffffff'}}>Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link"  onClick={executeScrollProjects}>Projects</a>
+                <a class="nav-link"  onClick={executeScrollProjects} style={{color:'#ffffff'}}>Projects</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" onClick={executeScrollAbout}>About</a>
+                <a class="nav-link" onClick={executeScrollAbout} style={{color:'#ffffff'}}>About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" onClick={executeScrollContact}>Contact</a>
+                <a class="nav-link" onClick={executeScrollContact} style={{color:'#ffffff'}}>Contact</a>
               </li>
             </ul>
           </div>
