@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.61314a07.chunk.css",
+    "main.css": "/portfolio/static/css/main.9d2f10e8.chunk.css",
     "main.js": "/portfolio/static/js/main.c5995fd1.chunk.js",
     "main.js.map": "/portfolio/static/js/main.c5995fd1.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.209c2d7e.js",
@@ -8,9 +8,9 @@
     "static/js/2.bdb0a406.chunk.js": "/portfolio/static/js/2.bdb0a406.chunk.js",
     "static/js/2.bdb0a406.chunk.js.map": "/portfolio/static/js/2.bdb0a406.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.f6b58165aac5281f0eef609d4c457fdd.js": "/portfolio/precache-manifest.f6b58165aac5281f0eef609d4c457fdd.js",
+    "precache-manifest.d12eee08263957e0d5412032255c1271.js": "/portfolio/precache-manifest.d12eee08263957e0d5412032255c1271.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.61314a07.chunk.css.map": "/portfolio/static/css/main.61314a07.chunk.css.map",
+    "static/css/main.9d2f10e8.chunk.css.map": "/portfolio/static/css/main.9d2f10e8.chunk.css.map",
     "static/js/2.bdb0a406.chunk.js.LICENSE.txt": "/portfolio/static/js/2.bdb0a406.chunk.js.LICENSE.txt",
     "static/media/coursearch.css": "/portfolio/static/media/CourseBanner1.58a55123.png",
     "static/media/CourseProcess.png": "/portfolio/static/media/CourseProcess.58c9520a.png",
@@ -25,7 +25,7 @@
     "static/media/frontread.css": "/portfolio/static/media/FrontBanner3.12ce18da.png",
     "static/media/Frontread Project - Report.pdf": "/portfolio/static/media/Frontread Project - Report.9381b1d3.pdf",
     "static/media/Frontread2.png": "/portfolio/static/media/Frontread2.5db4ef31.png",
-    "static/media/style.css": "/portfolio/static/media/HomeBannerSmall.eef2eb83.png",
+    "static/media/style.css": "/portfolio/static/media/HomeBannerSmall2.2cba5fcf.png",
     "static/media/IKEAvideo.mp4": "/portfolio/static/media/IKEAvideo.13610121.mp4",
     "static/media/IkeaSolution.png": "/portfolio/static/media/IkeaSolution.f8bddd8e.png",
     "static/media/KTH Coursearch Project Report .pdf": "/portfolio/static/media/KTH Coursearch Project Report .50d67654.pdf",
@@ -68,7 +68,7 @@
   "entrypoints": [
     "static/js/runtime-main.209c2d7e.js",
     "static/js/2.bdb0a406.chunk.js",
-    "static/css/main.61314a07.chunk.css",
+    "static/css/main.9d2f10e8.chunk.css",
     "static/js/main.c5995fd1.chunk.js"
   ]
 }
