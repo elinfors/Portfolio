@@ -16,6 +16,16 @@
           font-size: 50px;
           font-family: "Lora", serif;
       }
+      .arrowDiv{
+        font-size: small;
+        display: flex;
+        flex-direction: column;
+        color:white;
+        overflow-x: hidden!important
+      }
+      .arrowDiv p{
+        display: none;
+      }
       
       .headlineBox{
         width:90%;
@@ -151,6 +161,7 @@
     margin-left:10%;
     margin-right:10%;
     margin-top: 5%;
+    text-align: left;
     }
     .projectDesc{
     color: #404040;
@@ -215,7 +226,7 @@
       width:50%;
     }
     .videoDiv{
-      display: flex;
+      display: none;
       flex-direction: column;
       justify-content: center;
       align-items: center;
@@ -223,19 +234,20 @@
     }
 
     .centervideodiv{
-      display: flex;
+      display: none;
     flex-direction: row;
     justify-content: center;
     margin-bottom: 7%;
     }
     .solutionImg{
-      width:80vw;
+      width:100vw;
       align-self: center;
     }
     .mediaDiv{
         display: flex;
         flex-direction: column;
         margin-right: 0;
+        width:100%;
       }
     
       .descriptionDiv{
@@ -306,6 +318,7 @@
       display: flex;
       flex-direction: column;
       color:white;
+      overflow-x: hidden!important;
     }
     .infoIcons{
       width:70%;
@@ -386,6 +399,7 @@
       display: flex;
       flex-direction: row;
       margin-top: 5%;
+      text-align: left;
     }
     .projectDesc{
       color: #404040;

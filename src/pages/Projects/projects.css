@@ -4,6 +4,9 @@
       height: auto;
     }
     .projects{
+        width: auto!important; overflow-x: hidden!important;
+        overflow-y: scroll; /* has to be scroll, not auto */
+        -webkit-overflow-scrolling: touch;
         justify-content: center;
         margin-left: 10%;
         margin-right: 10%;
@@ -67,6 +70,9 @@
 @media only screen and (min-width: 769px) {
 
 .projects{
+    width: auto!important; overflow-x: hidden!important;
+    overflow-y: scroll; /* has to be scroll, not auto */
+    -webkit-overflow-scrolling: touch;
     justify-content: center;
     text-align: left;
     margin-left: 20%;

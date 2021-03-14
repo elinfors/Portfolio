@@ -28,16 +28,34 @@
     text-align: left;
     margin-left: 5%;
   }
+  .intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-image: url("./HomePage/HomeBanner2.jpg") ;
+    background-size: cover;
+    height:100vh;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    background-color: #464646;
+    background-attachment: fixed;
+    background-position: center;
+ 
+}
   body {
     font-family: "Montserrat";
     background-color: #f0f0f0 !important;
     position: relative;
+    width: auto!important; 
+    overflow-x: hidden!important;
+    overflow-y: scroll; /* has to be scroll, not auto */
+    -webkit-overflow-scrolling: touch;
     
   }
   .navbar{
     margin-top: 0 !important;
-    position: sticky;
-    position: -webkit-sticky;
     top:0;
     z-index: 5 !important;
     background-color: transparent;
@@ -268,6 +286,14 @@ color: #404040;
 .contactText{
   margin-bottom: 0;
 }
+.contactText:focus{
+  text-decoration: underline;
+  color: #404040;
+}
+.contactText:active{
+  text-decoration: underline;
+  color: #404040;
+}
 .gray{
   color: #404040 !important;
 }
@@ -284,15 +310,17 @@ color: #404040;
 @media only screen and (min-width: 769px) {
 
 body {
+  width: auto!important; 
+  overflow-x: hidden!important;
     font-family: 'Montserrat';
     background-color: #f0f0f0;
     position: relative;
     font-weight: lighter;
+    overflow-y: scroll; /* has to be scroll, not auto */
+    -webkit-overflow-scrolling: touch;
   }
   .navbar{
     margin-top: 0 !important;
-    position: sticky;
-    position: -webkit-sticky;
     top:0;
     z-index: 5 !important;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
@@ -444,6 +472,7 @@ body {
       background-image: url("./HomePage/HomeBanner2.jpg") ;
       background-size: cover;
       height:100vh;
+      max-width: 100%;
       background-repeat: no-repeat;
       background-color: #464646;
       background-attachment: fixed;
@@ -587,6 +616,18 @@ color: #404040;
   }
   .contactText{
     margin-bottom: 0;
+  }
+  .contactText:focus{
+    text-decoration: underline;
+    color:#404040;
+  }
+  .contactText:active{
+    text-decoration: underline;
+    color: #404040;
+  }
+  .contactText:hover{
+    text-decoration: underline;
+    color: #404040;
   }
   .gray{
     color: #404040 !important;
