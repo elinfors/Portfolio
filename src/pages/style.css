@@ -44,8 +44,6 @@
     position: relative;
     width: auto!important; 
     overflow-x: hidden!important;
-    overflow-y: scroll; /* has to be scroll, not auto */
-    -webkit-overflow-scrolling: touch;
     
   }
   .navbar{
