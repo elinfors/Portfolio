@@ -1,4 +1,33 @@
-#navbarFooter {
+  @media only screen and (max-width: 768px) {
+    #navbarFooter {
+        background-color: rgb(22 22 22);
+        overflow-x: hidden;
+        bottom:0;
+        left: 0;
+        width: 100%;
+        margin-bottom:0;
+        text-align: center;
+      }
+      #FooterLeft{
+        font-size: medium;
+        color:white;
+        font-weight: lighter;
+    }
+    #copyright{
+        color:white;
+        font-weight: lighter;
+        font-size: small;
+        margin:3%;
+        padding:1%
+    }
+    #footer{
+        text-align: center;
+    }
+  }
+  
+  
+  @media only screen and (min-width: 769px) {
+    #navbarFooter {
     background-color: rgb(22 22 22);
     overflow-x: hidden;
     bottom:0;
@@ -21,4 +50,7 @@
   }
   #footer{
       text-align: center;
+  }
+
+
   }

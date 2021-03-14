@@ -29,15 +29,22 @@
     margin-left: 5%;
   }
   .intro{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    background: url("./HomePage/HomeBannerSmall2.png") center center no-repeat scroll;
-    background-size: cover;
+    background: url("./HomePage/HomeBannerSmall2.png") no-repeat center center fixed;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      overflow: hidden;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      height:100vh;
  
 }
+
+
   body {
     font-family: "Montserrat";
     background-color: #f0f0f0 !important;
@@ -76,14 +83,13 @@
     background-color: transparent;
     border: solid;
     color: white;
-    padding: 10px;
+    padding: 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
     border-radius: 10px;
     cursor: pointer;
-    font-size: 10px;
     margin-left: 20%;
     margin-right: 20%;
     margin-top: 20%;
@@ -174,24 +180,7 @@
     margin-top:5%;
     color: #ffffff;
   }
-  
-    .intro{
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-      background: url("./HomePage/HomeBannerSmall.png") no-repeat center center fixed ;
-      overflow: hidden;
-      -webkit-background-size: cover;
-      -moz-background-size: cover;
-      -o-background-size: cover;
-      background-size: cover;
-      height:100vh;
 
-     
-     
-    }
 
   .button:active,.button:focus {
     outline: none;
@@ -308,8 +297,7 @@ body {
     background-color: #f0f0f0;
     position: relative;
     font-weight: lighter;
-    overflow-y: scroll; /* has to be scroll, not auto */
-    -webkit-overflow-scrolling: touch;
+   
   }
   .navbar{
     margin-top: 0 !important;
