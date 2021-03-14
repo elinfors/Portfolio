@@ -160,15 +160,15 @@
     flex-direction: column;
     margin-left:10%;
     margin-right:10%;
-    margin-top: 5%;
     text-align: left;
     }
     .projectDesc{
     color: #404040;
     text-transform: uppercase;
-    font-size: 15px;
+    font-size: 20px;
     font-weight: bold;
-    margin-top: 3%;
+    margin-top: 5%;
+    margin-bottom: 5%;
     }
     .processImg{
       width:100%;

@@ -71,8 +71,6 @@
 
 .projects{
     width: auto!important; overflow-x: hidden!important;
-    overflow-y: scroll; /* has to be scroll, not auto */
-    -webkit-overflow-scrolling: touch;
     justify-content: center;
     text-align: left;
     margin-left: 20%;

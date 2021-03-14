@@ -34,14 +34,8 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    background-image: url("./HomePage/HomeBanner2.jpg") ;
+    background: url("./HomePage/HomeBanner2.jpg") center center no-repeat scroll;
     background-size: cover;
-    height:100vh;
-    max-width: 100%;
-    background-repeat: no-repeat;
-    background-color: #464646;
-    background-attachment: fixed;
-    background-position: center;
  
 }
   body {
@@ -265,8 +259,8 @@ color: #404040;
 }
 
 .contactContainer{
-  margin-top: 5%;
-  margin-bottom: 5%;
+  margin-top: 15%;
+  margin-bottom: 15%;
   display: flex;
   flex-direction: column;
   justify-content: center;
