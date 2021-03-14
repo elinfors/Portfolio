@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "40ba185bc1dc0f8bba6aa2064052cccf",
+    "revision": "3d60791472b0a4963a71ca6854c42f88",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "e58d53ab776a0c91546f",
-    "url": "/portfolio/static/css/main.26f3adf8.chunk.css"
+    "revision": "bd7aaa8c30d25ff40dbe",
+    "url": "/portfolio/static/css/main.ca111691.chunk.css"
   },
   {
-    "revision": "0fd118f18bf55aef14b1",
-    "url": "/portfolio/static/js/2.ddd688ff.chunk.js"
+    "revision": "60d80a8445c379d80a2b",
+    "url": "/portfolio/static/js/2.1500dae0.chunk.js"
   },
   {
     "revision": "728a5ed59fc0638b030a3df30164ca48",
-    "url": "/portfolio/static/js/2.ddd688ff.chunk.js.LICENSE.txt"
+    "url": "/portfolio/static/js/2.1500dae0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e58d53ab776a0c91546f",
-    "url": "/portfolio/static/js/main.febf1aea.chunk.js"
+    "revision": "bd7aaa8c30d25ff40dbe",
+    "url": "/portfolio/static/js/main.c5960be8.chunk.js"
   },
   {
     "revision": "7a6cc99bd8f08f9fa6ec",
@@ -26,6 +26,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "58a55123b51b5f88477c66a584acfe55",
     "url": "/portfolio/static/media/CourseBanner1.58a55123.png"
+  },
+  {
+    "revision": "58c9520a218ab8dc655cbb8af543e665",
+    "url": "/portfolio/static/media/CourseProcess.58c9520a.png"
   },
   {
     "revision": "680277dfd894f2e012f907ef1a3a6abc",
@@ -120,12 +124,44 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/Project Report - NearBy.f8f7a914.pdf"
   },
   {
+    "revision": "6eba66133d66df2fbe2203908b29cf86",
+    "url": "/portfolio/static/media/Requirements.6eba6613.png"
+  },
+  {
+    "revision": "c97e6f8d5eb7f3c0c9a37a62ea4596f2",
+    "url": "/portfolio/static/media/Sketching.c97e6f8d.png"
+  },
+  {
+    "revision": "eec444f531902a493930b4db05cd108d",
+    "url": "/portfolio/static/media/Survey.eec444f5.png"
+  },
+  {
     "revision": "7a2099f1fd26f5d412b26349ec395b7f",
     "url": "/portfolio/static/media/TripBanner2.7a2099f1.png"
   },
   {
+    "revision": "2e87b7f83030bc6ad80f6f9e92b25da5",
+    "url": "/portfolio/static/media/TripFlow.2e87b7f8.png"
+  },
+  {
+    "revision": "426f83d54bd63378d574b90dd564e985",
+    "url": "/portfolio/static/media/TripProcess.426f83d5.png"
+  },
+  {
+    "revision": "209b1667aa4934269444d6b525d8915b",
+    "url": "/portfolio/static/media/TripSketch.209b1667.png"
+  },
+  {
     "revision": "5a5cd8ca45789976a8309b9df4c9bef2",
     "url": "/portfolio/static/media/TripSolution.5a5cd8ca.png"
+  },
+  {
+    "revision": "cb15b49bc2e59d54acceaeaa3fd7d50e",
+    "url": "/portfolio/static/media/TripSolution2.cb15b49b.png"
+  },
+  {
+    "revision": "b669bbdcb29ad7b18538c1cf4bcaaf05",
+    "url": "/portfolio/static/media/TripUSM.b669bbdc.png"
   },
   {
     "revision": "c0d7d6452458cb38f108cc184e0e1898",

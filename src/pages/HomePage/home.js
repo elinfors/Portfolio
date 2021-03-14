@@ -6,6 +6,7 @@ import foto from './cvfoto.jpg'
 import arrow from './arrow.png'
 import Projects from '../Projects/projects'
 import About from '../About/about'
+import ScrollArrow from '../ScrollArrow'
 import history from '../../history'
 import { useHistory } from "react-router-dom";
 import scrollToComponent from 'react-scroll-to-component';
@@ -190,7 +191,7 @@ const HomeScreen = () => {
                
                <div className="contactContainer" ref={myRef4}>
                   <p className="contactHeadline">
-                    LET'S GET IN TOUCH
+                    LET'S GET IN TOUCH!
                   </p>
                   <div className="contactIcons">
                     <div className="contactDiv">
@@ -215,6 +216,8 @@ const HomeScreen = () => {
                   </div>
 
                 </div>
+
+                <ScrollArrow/>
             
             
             <div className="rowFooter">
