@@ -10,12 +10,13 @@ import Footer from "../Footer/footer"
 import coursearch1 from "./coursearch1.png"
 import pdf from './KTH Coursearch Project Report .pdf'
 
-var course = require('./CourseSolution.png')
+var course = require('./CourseSolution2.png')
 var logo = require('../HomePage/EFlogoWhite.png')
 var process = require('./CourseProcess.png')
 var survey = require('./Survey.png')
 var requirements = require('./Requirements.png')
 var skecthing = require('./Sketching.png')
+var hiw = require('./HIW.png')
 //var video = require('../../CoursearchDemo.mp4')
 
 const Coursearch = () =>{
@@ -72,35 +73,14 @@ const Coursearch = () =>{
                     </div>
                         <div className="words">
                             <div>
-                                Web Development
+                                Visualizing KTH course data for supporting students at KTH to self-manage their educational path
                             </div>
-                            <div>
-                            </div>
-                            <div>
-                                Visualization
-                            </div>
-                            <div>
-                            </div>
-                            <div>
-                                Data Processing
-                            </div>
-
                         </div>
                        
                 </div>
                 
                 <div className="projectContent">
 
-                    <div className="mediaDiv">
-                   {/* <div className="centervideodiv">
-                            <video className="Coursevideo" muted loop controls>
-                                <source src={video} type="video/mp4"></source>
-                            </video>
-                        </div>*/}
-                        <img className="solutionImg"src={course}></img>
-
-
-                    </div>
                     <div className="descriptionDiv">
                         <div className="infoIcons">
                                 <div className="infoDivHead">
@@ -162,24 +142,7 @@ const Coursearch = () =>{
                     </li>
                         </ul>
                         </div>
-                        <div className="projectDesc">
-                            Solution
-                        </div>
-                        <div className="projectText">
-                        To address the problem of finding information about KTH course offerings and suitable courses, an interactive bubble chart was created. 
-                        The bubble chart has different levels of information, where courses from each department and school are grouped together. Through the filtering
-                        functionality, students can search for courses based on several requirements such as level, language, campus, period, as well as by free text.
-                        </div>
-                        <div className="projectText">
-                        The visualization of courses lets the students explore all courses at KTH, not only the ones bound to a certain school and/or department. 
-                        This way, students can find elective courses that they are interested in, and that complement and/or fit their programme. 
-                        A more customized education is thus easier to achieve, where students get to be involved in their learning process. 
-                        </div>
-                        <div className="projectText">
-                        To enable an overview of a student's education, a study plan visualization was created. Here, the students can add their bachelor courses automatically
-                        and their master courses manually using the search funtionality. The students gets the opportunity to explore the composition of courses and subjects
-                        and see if the education is going in the direction of their wishes. 
-                        </div>
+
                         <div className="projectDesc">
                             Design Process
                         </div>
@@ -209,7 +172,43 @@ const Coursearch = () =>{
                         the insights from related work, visualization theory and the sketches made during brainstorming.
                         <img className="processImg" src={skecthing}></img>
                         </div>
+                        <div className="projectText">
+                            Based on the design we developed an MVP using React.js and D3.js, which was tested on users to gain insights about where to show what information and how to access it. 
+                            The user tests were in the form of think-aloud tests combined with unstructured interviews, asking questions such as
+                            <ul>
+                                <li>What information do you expect to get when clicking on X?</li>
+                                <li>What information do you want to get when clicking on X?</li>
+                                <li>Why?</li>
 
+                            </ul>
+                        </div>
+                        <div className="projectText">
+                        Interaction improvements in the visualizations were made and a step-by-step tutorial was created to support onboarding.  
+                        <img className="processImg" src={hiw}></img>
+                        </div>
+
+                        
+
+
+                        <div className="projectDesc">
+                            Solution
+                        <img className="processImg" src={course}></img>
+                        </div>
+                        <div className="projectText">
+                        To address the problem of finding information about KTH course offerings and suitable courses, an interactive bubble chart was created. 
+                        The bubble chart has different levels of information, where courses from each department and school are grouped together. Through the filtering
+                        functionality, students can search for courses based on several requirements such as level, language, campus, period, as well as by free text.
+                        </div>
+                        <div className="projectText">
+                        The visualization of courses lets the students explore all courses at KTH, not only the ones bound to a certain school and/or department. 
+                        This way, students can find elective courses that they are interested in, and that complement and/or fit their programme. 
+                        A more customized education is thus easier to achieve, where students get to be involved in their learning process. 
+                        </div>
+                        <div className="projectText">
+                        To enable an overview of a student's education, a study plan visualization was created. Here, the students can add their bachelor courses automatically
+                        and their master courses manually using the search funtionality. The students gets the opportunity to explore the composition of courses and subjects
+                        and see if the education is going in the direction of their wishes. 
+                        </div>
 
                 </div>
                 </div>

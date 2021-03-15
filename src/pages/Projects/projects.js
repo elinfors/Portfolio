@@ -8,8 +8,8 @@ var ikea = require('./ikea.png')
 var flight = require('./flight2.png')
 var chat = require('./chat.PNG')
 var rect1 = require('./Rectangle1.png')
-var course = require('./Coursearch.png')
-var trip = require('./Tripdoodler2.png')
+var course = require('./Coursearch2.png')
+var trip = require('./Tripdoodler3.png')
 var frontread = require('./Frontread2.png')
 var nearby = require('./Nearby2.png')
 var kollin = require('./Kollin3.png')
@@ -64,7 +64,7 @@ return(
             Recent Projects
         </div>
         <div className="subTitle">
-            Some of my selected work made as a student and project employed, click on the pictures to read more about each project!
+            Here you can find some of my previous work made as a student and project employed, click on a project to get more details!
         </div>
 
         <div className='projRow'>

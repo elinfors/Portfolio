@@ -7,6 +7,7 @@ import pdf from './ikeaWorkbook.pdf'
 import Footer from "../Footer/footer"
 var ikea = require('./IkeaSolution.png')
 var logo = require('../HomePage/EFlogoWhite.png')
+var dd = require('./doubled.png')
 var videoIkea = require('../../IKEAvideo.mp4')
 const Ikea = () =>{
     let history = useHistory();
@@ -65,13 +66,7 @@ const Ikea = () =>{
                     </div>
                         <div className="words">
                             <div>
-                                Interaction Design
-                            </div>
-                            <div>
-                            
-                            </div>
-                            <div>
-                                User Research
+                                Redesigning and digitalizing the static IKEA manual for assembling furniture
                             </div>
 
                         </div>
@@ -79,7 +74,7 @@ const Ikea = () =>{
                 </div>
                 
                 <div className="projectContent">
-
+{/*
                     <div className="mediaDiv">
                     <div className="centervideodiv">
                 
@@ -92,6 +87,7 @@ const Ikea = () =>{
 
 
                     </div>
+*/}
                     <div className="descriptionDiv">
                         <div className="infoIcons">
                                 <div className="infoDivHead">
@@ -129,48 +125,32 @@ const Ikea = () =>{
                             Project Description
                         </div>
                         <div className="projectText">
-                        Ikea Assembly is a redesign- and digital version of the traditional Ikea furniture manual. 
-                        An interactive prototype of the final solution was built using Figma and InVision. 
+                        Ikea Assembly is a redesign- and digital version of the traditional Ikea manual for assembling furniture. 
+                        By utilizing a human-centered design approach, issues with the manual were found and solved through an interactive prototype.
                         
                         </div>
                         <div className="projectDesc">
                             Problem
                         </div>
                         <div className="projectText">
-                            The current Ikea manual has had the same design 
-                            <ul>
-                            <li> 
-                                    Users did not understand what Kollin offered
-                                </li>
-                                <li> 
-                                    Users accidently entered the wrong courses fron the start page
-                                </li>
-                                <li>
-                                    Users did not understand what they would get if they signed up and paid for a course
-                                </li>
-                            </ul>
+                            The current Ikea manual has had the same design since start, and has been seen as intuitive and clear. However, we found that 
+                            the manual in fact is not always easy and clear to follow, and that the paper manual needed a touch-up.
                         </div>
-                        <div className="projectDesc">
-                            Solution
-                        </div>
-                        <div className="projectText">
-                            The project resulted in an interactive prototype, where users could assemble an IKEA furniture through an instructive, animated video. 
-                            The solution includes intuitive process/step overview, gives recommendations along the way and the full list of equipment is always accessible for the user. 
-                            The video plays when a user holds the button, and can be rewinded if the user misses something. 
-
-                      
-                        </div>
+                        
                         <div className="projectDesc">
                             Design Process
                         </div>
+                        <img className="processImg"src={dd}></img>
+
                         <div className="projectText">
                             This project strictly followed the four stages in the double diamond design process: discover, define, develop and deliver. During the discover
                             phase five people got to assemble a simple stool "Marius" from IKEA using the original paper manual. By letting them think out loud followed by
                             semi-structured interviews, insights about what was clear and unclear with the manual were discovered. For example, all participants described the manual as "clear", but no one managed to assemble it properly. 
 
                         </div>
+                        
                         <div className="projectText">
-                        The define phase consisted of analysing the user research to find patterns and creating a persona. Four key insights were found: 
+                        The define phase consisted of analyzing the user research to find patterns and creating a persona. Four key insights were found: 
                         <ul>
                             <li>It should be a fun experience to assemble a furniture</li>
                             <li>The process should be clear with no room for mistakes early in the assembling</li>
@@ -194,6 +174,23 @@ const Ikea = () =>{
                                 <button className="projectButtonDownload" type="submit"> DOWNLOAD WORKBOOK</button>
                         </form>
                         </div>
+                        
+                        <div className="projectDesc">
+                            Solution
+                        </div>
+                        <div className="projectText">
+                            The project resulted in an interactive prototype, where users could assemble an IKEA furniture through an instructive, animated video. 
+                            The solution includes intuitive process/step overview, gives recommendations along the way and the full list of equipment is always accessible for the user. 
+                            The video plays when a user holds the button, and can be rewinded if the user misses something. 
+                        </div>
+                        <div className="centervideodiv">
+                
+                            <video className="Ikeavideo" muted loop controls>
+                                <source src={videoIkea} type="video/mp4"></source>
+                            </video>
+            
+                    </div>
+                      <img className="processImg"src={ikea}></img>
 
                 </div>
                 </div>

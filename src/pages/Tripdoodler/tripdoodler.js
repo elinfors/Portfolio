@@ -7,7 +7,7 @@ import Footer from "../Footer/footer"
 
 
 var solution = require('./TripSolution.png')
-var solution2 = require('./TripSolution2.png')
+var solution2 = require('./TripSolution3.png')
 var video = require('../../TripVid.mp4')
 var figma = require('./Figma.PNG')
 var userflow = require('./UserFlow.png')
@@ -72,26 +72,15 @@ const TripDoodler = () =>{
                     </div>
                         <div className="words">
                             <div>
-                                UX Design
+                                Mobile application for travellers to collect, plan, share and rate travels with their community based on sustainability parameters
                             </div>
-                            <div>
                             
-                            </div>
-                            <div>
-                                Interactive Prototyping
-                            </div>
-                            <div>
-                            
-                            </div>
-                            <div>
-                                Figma
-                            </div>
                         </div>
                        
                 </div>
                 
                 <div className="projectContent">
-                
+                {/*
                 <div className="mediaDiv">
 
                          <div className="centervideodiv">
@@ -99,9 +88,8 @@ const TripDoodler = () =>{
                                 <source src={video} type="video/mp4"></source>
                             </video>
                         </div>
-                        <img className="solutionImg"src={solution}></img>
 
-                    </div>
+                </div>*/}
                 
                     <div className="descriptionDiv">
 

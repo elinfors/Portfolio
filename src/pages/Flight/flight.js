@@ -63,20 +63,9 @@ const Flight = () =>{
                     </div>
                         <div className="words">
                             <div>
-                                Web Development
+                                Visualizing KTH researchers' flight data to discover patterns in flying habits and to encourage more sustainable decisions
                             </div>
-                            <div>
-                            
-                            </div>
-                            <div>
-                                Visualization
-                            </div>
-                            <div>
-                            
-                            </div>
-                            <div>
-                                Data Processing
-                            </div>
+
 
                         </div>
                        
@@ -84,8 +73,8 @@ const Flight = () =>{
                 
                 <div className="projectContent">
 
-                    <div className="mediaDiv">
-                       
+            
+                  {/*     
                     <div className="mediaDiv">
                     <div className="centervideodiv">
                     <iframe className="Flightvideo" src="https://www.youtube.com/embed/vYf_7MLFkKw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
@@ -96,9 +85,10 @@ const Flight = () =>{
                         <img className="solutionImg"src={flight}></img>
 
 
-                    </div>
+                  </div>
+                  */}
 
-                    </div>
+  
                     <div className="descriptionDiv">
                         <div className="infoIcons">
                                 <div className="infoDivHead">
@@ -148,7 +138,7 @@ const Flight = () =>{
                             Project Description
                         </div>
                         <div className="projectText">
-                            The purpose pf the project was to enable researchers at different departments to discover patterns in their flying habits, 
+                            The purpose of the project was to enable researchers at different departments to discover patterns in their flying habits, 
                             and we were given multiple, large datasets to work with. Since we collaborated with a research team at KTH, we needed to regard their needs 
                             and requirements throughout the project. By processing and analyzing the datasets, several different visual structures were used to present 
                             the data in an interactive way. By using this tool, KTH can start analyzing patterns to find out the reason for flying, and most importantly, how to possibly reduce it and reach the 9% goal.
@@ -175,10 +165,15 @@ const Flight = () =>{
                             <li>Where they have traveled to</li>
                             <li>Who has traveled and how much</li>
                         </ul>
-
-
-                        
+                    
                         </div>
+                        <div className="centervideodiv">
+                    <iframe className="Flightvideo" src="https://www.youtube.com/embed/vYf_7MLFkKw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+
+                    </iframe>
+                    
+                        </div>
+                        <img className="processImg"src={flight}></img>
                 </div>
                 </div>
 

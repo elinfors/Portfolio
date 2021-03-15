@@ -7,6 +7,8 @@ import { useHistory } from "react-router-dom";
 import Footer from "../Footer/footer"
 var kollin = require('./KollinSolution.png')
 var logo = require('../HomePage/EFlogoWhite.png')
+var lowfi = require('./lowfi.png')
+var req = require('./KollinReq.png')
 const Kollin = () =>{
     let history = useHistory();
 
@@ -70,19 +72,7 @@ const Kollin = () =>{
                     </div>
                         <div className="words">
                             <div>
-                                UX Design
-                            </div>
-                            <div>
-                            
-                            </div>
-                            <div>
-                                User Research
-                            </div>
-                            <div>
-                            
-                            </div>
-                            <div>
-                                Onboarding
+                                Designing the onboadring process of an EdTech platform for better user experience of new users
                             </div>
 
                         </div>
@@ -90,12 +80,12 @@ const Kollin = () =>{
                 </div>
                 
                 <div className="projectContent">
-
+                    {/*
                     <div className="mediaDiv">
                         <img className="solutionImg"src={kollin}></img>
 
 
-                    </div>
+                    </div>*/}
                     <div className="descriptionDiv">
                         <div className="infoIcons">
                                 <div className="infoDivHead">
@@ -122,7 +112,7 @@ const Kollin = () =>{
                         </div>
                         <div className="projectText">
                         I was hired to help design the onboarding of a new version of Kollin's website to improve user experience for an upcoming launch. The project involved 
-                        user research, competitor analysis, user story mapping, creating low-fi mockups and user evaluation. 
+                        user research, competitor analysis, low-fi wireframing and user evaluation. 
                         In collaboration with developers, the new onboarding was implemented and released in the new beta-version.
 
                         
@@ -145,16 +135,7 @@ const Kollin = () =>{
                                 </li>
                             </ul>
                         </div>
-                        <div className="projectDesc">
-                            Solution
-                        </div>
-                        <div className="projectText">
-
-                        The project resulted in a more clear onboarding process where the users could find a relevant course at the 
-                        top of the landing page. Also, the key offers that Kollin provides is clearly communicated through the landing page,
-                        so that there is no question about what Kollin actually is. Also, in every course that the user can try for free there is a 
-                        banner on top of the page with information about what is unlocked upon registration and payment. 
-                        </div>
+                       
                         <div className="projectDesc">
                             Design Process
                         </div>
@@ -162,11 +143,27 @@ const Kollin = () =>{
                             To understand, and emphasize with, how new users perceived Kollin, 
                             a discover phase was initiated with think-aloud user tests combined with semi-structured interviews. 
                             The goal of the user tests was to understand how users that were unfamiliar with Kollin interacted with the platform. 
-                            The discover phase gave valuable insights that were analyzed through a thematic analysis method. 
-                            The key insights were then defined and transferred into simple low-fi mockups through brainstorming sessions and competitive analysis. 
-                            The mockups were shown to users and then iterated on. Because of time constraints with the new launch the deidng process had to be shortened 
-                            and implemented without further testing. However, the design was implemeted and the new platform launched with success, where new users 
+                            The discover phase gave valuable insights that were analyzed through a thematic analysis method and resulted in the following requrements:
+                        </div>
+                        <div className="projectText">
+                            <img className="processImg"src={req} style={{width:'60%'}}></img>
+                        </div>
+                        <div className="projectText">
+                            The key insights were then defined and transferred into simple low-fi wirerfames through brainstorming sessions and competitive analysis. 
+                            <img className="processImg"src={lowfi}></img>
+                            The wireframes were shown to users and then iterated on. The design was implemeted and the new platform launched with success, where new users 
                             found the platform easy to understand and the value proposition was clear upon the home page. 
+                        </div> 
+                        
+                        <div className="projectDesc">
+                            Solution
+                        </div>
+                        <div className="projectText">
+                        <img className="processImg"src={kollin}></img>
+                        The project resulted in a more clear onboarding process where the users could find a relevant course at the 
+                        top of the landing page. Also, the key offers that Kollin provides is clearly communicated through the landing page,
+                        so that there is no question about what Kollin actually is. Also, in every course that the user can try for free there is a 
+                        banner on top of the page with information about what is unlocked upon registration and payment. 
                         </div>
                 </div>
                 </div>

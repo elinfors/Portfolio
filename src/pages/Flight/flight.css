@@ -7,7 +7,9 @@
       align-items: center;
       justify-content: center;
       text-align: center;
-      background: url("FlightBanner1.png") no-repeat center center fixed ;
+      background: url("FlightBanner2.png") no-repeat center center ;
+      background-attachment: scroll;
+      overflow: hidden;
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
@@ -36,7 +38,7 @@
       flex-direction: column;
       align-items: center;
       text-align: center;
-      background-image: url("FlightBanner1.png") ;
+      background-image: url("FlightBanner2.png") ;
       background-size: cover;
       height:100vh;
       background-repeat: no-repeat;

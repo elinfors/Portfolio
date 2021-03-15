@@ -152,7 +152,7 @@ const HomeScreen = () => {
                   </div>
                     
                    
-                  </div>
+                  
                   <div className="getInTouch">
                     Want to get in touch?
                   </div>
@@ -166,6 +166,8 @@ const HomeScreen = () => {
                     <a  href="mailto:forsbergselin@gmail.com" target="_blank">
                     <i className="fas fa-envelope-square"></i>
                     </a>
+                    </div>
+                    
                     </div>
                   </div>
             </div>

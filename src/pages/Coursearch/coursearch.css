@@ -7,13 +7,16 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    background: url("CourseBanner1.png") no-repeat center center scroll ;
+    background: url("CourseBanner1.png") no-repeat center center ;
+    background-attachment: scroll;
+    overflow: hidden;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     height:100vh;
   }
+
   .Coursevideo{
     border: solid;
     border-width: thin;
