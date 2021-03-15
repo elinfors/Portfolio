@@ -100,8 +100,8 @@ const HomeScreen = () => {
             
           </div>
         */ }
-        <nav class="navbar navbar-expand-lg navbar-dark" style={{backgroundColor: 'rgb(22 22 22)', height:'5%'}}>
-          <a class="navbar-brand" onClick={executeScrollUp}><img src={logo} style={{height:'40px'}}></img></a>
+        <nav class="navbar navbar-expand-lg navbar-dark sticky-top" style={{backgroundColor: 'rgb(22 22 22)', height:'5%'}}>
+          <a class="navbar-brand" onClick={executeScrollUp}><img src={logo} style={{height:'40px', cursor:'pointer'}}></img></a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -216,8 +216,9 @@ const HomeScreen = () => {
                   </div>
 
                 </div>
-
+                <div className="ScrollContainer">
                 <ScrollArrow/>
+                </div>
             
             
             <div className="rowFooter">
