@@ -26,7 +26,8 @@
         position: relative;
     }
     .cvfoto{
-        width:90%;
+        width:100%;
+        
     }
     .aboutTitle{
         font-size: 30px;

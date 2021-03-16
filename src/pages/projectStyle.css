@@ -26,6 +26,16 @@
       .arrowDiv p{
         display: none;
       }
+      .arrowDown{
+        padding-top: 30%;
+      }
+      .arrowDown .fas{
+        color:white;
+        font-size: 30px;
+      }
+      .arrowDown .fas:focus{
+        font-size: 40px;
+      }
       
       .headlineBox{
         width:90%;
@@ -326,6 +336,17 @@
       color:white;
       overflow-x: hidden!important;
     }
+    .arrowDown{
+      cursor: pointer;
+      padding-top: 10%;
+    }
+    .arrowDown .fas{
+      color:white;
+      font-size: 40px;
+    }
+    .arrowDown .fas:hover{
+      font-size: 50px;
+    }
     .header{
       display: flex;
       flex-direction: row;
@@ -379,12 +400,14 @@
         margin-bottom: 5%;
         margin-right:10px;
     }
+    
     .projectButton:hover {
         background: #404040;
         border:none;
         color:white;
         cursor: pointer;
       }
+      
     .projectButton:focus {
         background: #404040;
         outline:none;

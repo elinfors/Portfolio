@@ -1,8 +1,9 @@
-import React, {useState, useEffect} from 'react'
+import React, {useState, useEffect, useRef} from 'react'
 import "./coursearch.css"
 import "../projectStyle.css"
 import history from '../../history'
 import { useHistory } from "react-router-dom";
+import ScrollArrow from '../ScrollArrow'
 import arrow from "./back_arrow.png"
 import q from "./q.png"
 import discovery from "./discovery.png"
@@ -20,6 +21,14 @@ var hiw = require('./HIW.png')
 //var video = require('../../CoursearchDemo.mp4')
 
 const Coursearch = () =>{
+    const scrollToRef = (ref) => window.scrollTo({
+        top: ref.current.offsetTop,
+        behavior: 'smooth'     
+    })   
+    
+      
+        const descRef = useRef(null)
+        const executeScroll = () => {scrollToRef(descRef)}
     let history = useHistory();
 
     const RedirectBack = () =>{
@@ -27,17 +36,37 @@ const Coursearch = () =>{
         history.push("/");
         console.log("clicked")
       }
-      const RedirectNearby = () =>{
+      const RedirectCourse = () =>{
 
-        history.push("/nearby");
+        history.push("/coursearch");
         console.log("clicked")
       }
+
       const RedirectTripDoodler = () =>{
 
         history.push("/tripdoodler");
         console.log("clicked")
       }
+      const RedirectNearby = () =>{
 
+        history.push("/nearby");
+        console.log("clicked")
+      }
+      const RedirectKollin = () =>{
+
+        history.push("/kollin");
+        console.log("clicked")
+      }
+      const RedirectFlight = () =>{
+
+        history.push("/flight");
+        console.log("clicked")
+      }
+      const RedirectIkea = () =>{
+
+        history.push("/ikea");
+        console.log("clicked")
+      }
       
       return(
         <React.Fragment>
@@ -49,8 +78,26 @@ const Coursearch = () =>{
 
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
-              <li class="nav-item">
+            <li class="nav-item">
                 <a class="nav-link" onClick={()=> RedirectBack()} style={{color:'#ffffff'}}>Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" onClick={()=> RedirectTripDoodler()} style={{color:'#ffffff'}}>Tripdoodler</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" onClick={()=> RedirectCourse()} style={{color:'#ffffff'}}>Coursearch</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" onClick={()=> RedirectNearby()} style={{color:'#ffffff'}}>NearBy</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" onClick={()=> RedirectKollin()} style={{color:'#ffffff'}}>Kollin</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" onClick={()=> RedirectFlight()} style={{color:'#ffffff'}}>KTH Flight Tool</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" onClick={()=> RedirectIkea()} style={{color:'#ffffff'}}>Ikea Assembly</a>
               </li>
             </ul>
           </div>
@@ -76,12 +123,18 @@ const Coursearch = () =>{
                                 Visualizing KTH course data for supporting students at KTH to self-manage their educational path
                             </div>
                         </div>
+                        
+                        <div className="arrowDown">
+
+                            <i onClick={()=>{executeScroll()}} class="fas fa-chevron-down"></i>
+
+                            </div>
                        
                 </div>
                 
                 <div className="projectContent">
 
-                    <div className="descriptionDiv">
+                    <div className="descriptionDiv" ref={descRef}>
                         <div className="infoIcons">
                                 <div className="infoDivHead">
                                         <p style={{fontSize:'15px'}}>DATA VISUALIZATION</p>
@@ -91,7 +144,7 @@ const Coursearch = () =>{
                                         <a href="https://coursearch-d578e.web.app/" target="_blank">
                                             <button className="projectButton">COURSEARCH TOOL</button>
                                         </a>
-                                        <a href="https://github.com/elinfors/NARArepo" target="_blank">
+                                        <a href="https://github.com/elinfors/courseProject" target="_blank">
                                             <button className="projectButton">GITHUB REPOSITORY</button>
                                         </a>
                                         <form className="downloadForm" method="get" action={pdf}  target="_blank">
@@ -218,6 +271,9 @@ const Coursearch = () =>{
            
             
             </div>
+            <div className="ScrollContainer">
+                <ScrollArrow/>
+                </div>
             <div className="row">
               <Footer/>
             </div>

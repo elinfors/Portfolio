@@ -160,11 +160,11 @@ const HomeScreen = () => {
                       <a href="https://www.linkedin.com/in/elinfors/">
                     <i className="fab fa-linkedin"></i>
                     </a>
-                    <a href="https://github.com/elinfors">
-                    <i className="fab fa-github-square"></i>
-                    </a>
                     <a  href="mailto:forsbergselin@gmail.com" target="_blank">
                     <i className="fas fa-envelope-square"></i>
+                    </a>
+                    <a href="https://github.com/elinfors">
+                    <i className="fab fa-github-square"></i>
                     </a>
                     </div>
                     

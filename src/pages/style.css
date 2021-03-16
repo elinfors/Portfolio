@@ -41,7 +41,7 @@
       -moz-background-size: cover;
       -o-background-size: cover;
       background-size: cover;
-      height:100vh;
+      height:90vh;
  
 }
 .ScrollContainer{
@@ -107,7 +107,7 @@
     background-color: transparent;
     border: solid;
     color: white;
-    padding: 20px;
+    padding: 16px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -129,11 +129,12 @@
   }
   .hi{
     font-size: 20px;
-    color: rgba(255, 255, 255, 0.658);
+    color: white;
     padding-top: 1%;
     margin-bottom: 1%;
     text-align: left;
     font-family: 'Lora, serif';
+    font-weight: lighter;
   }
   .name{
   color: white;
@@ -202,7 +203,7 @@
 
   .getInTouch{
     margin-top:7%;
-    font-size: 25px;
+    font-size: 20px;
     color: #ffffff;
   }
 
@@ -212,7 +213,9 @@
     border-bottom: solid;
     text-decoration: none;
 }
-
+.button_container_icons{
+  margin-bottom: 10%;
+}
 .button, .button2{
   margin-top: 5%;
   background-color: transparent;
@@ -245,8 +248,8 @@ form{
   flex-direction: column;
 }
 .fab, .fas {
-margin: 5px;
-font-size: 30px;
+margin: 10px;
+font-size: 35px;
 color: #ffffff;
 }
 .fa-tools{
@@ -287,11 +290,11 @@ font-size: 100px;
 }
 .contactIcons{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-around;
-  align-items: center;
+  align-items: left;
   margin-bottom: 2%;
-  width:30%;
+  width:60%;
 }
 .contactText{
   margin-bottom: 0;

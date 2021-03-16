@@ -1,15 +1,25 @@
-import React, {useState, useEffect} from 'react'
+import React, {useState, useEffect, useRef} from 'react'
 import "./kollin.css"
 import '../projectStyle.css'
 import history from '../../history'
 import { useHistory } from "react-router-dom";
-
+import ScrollArrow from '../ScrollArrow'
 import Footer from "../Footer/footer"
 var kollin = require('./KollinSolution.png')
 var logo = require('../HomePage/EFlogoWhite.png')
 var lowfi = require('./lowfi.png')
 var req = require('./KollinReq.png')
 const Kollin = () =>{
+
+    const scrollToRef = (ref) => window.scrollTo({
+        top: ref.current.offsetTop,
+        behavior: 'smooth'     
+    })   
+    
+      
+        const descRef = useRef(null)
+        const executeScroll = () => {scrollToRef(descRef)}
+
     let history = useHistory();
 
     const RedirectBack = () =>{
@@ -17,18 +27,37 @@ const Kollin = () =>{
         history.push("/");
         console.log("clicked")
       }
+      const RedirectCourse = () =>{
+
+        history.push("/coursearch");
+        console.log("clicked")
+      }
+
+      const RedirectTripDoodler = () =>{
+
+        history.push("/tripdoodler");
+        console.log("clicked")
+      }
       const RedirectNearby = () =>{
 
         history.push("/nearby");
         console.log("clicked")
       }
+      const RedirectKollin = () =>{
 
+        history.push("/kollin");
+        console.log("clicked")
+      }
       const RedirectFlight = () =>{
 
         history.push("/flight");
         console.log("clicked")
       }
+      const RedirectIkea = () =>{
 
+        history.push("/ikea");
+        console.log("clicked")
+      }
       
 
       return(
@@ -46,8 +75,26 @@ const Kollin = () =>{
 
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
-              <li class="nav-item">
+            <li class="nav-item">
                 <a class="nav-link" onClick={()=> RedirectBack()} style={{color:'#ffffff'}}>Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" onClick={()=> RedirectTripDoodler()} style={{color:'#ffffff'}}>Tripdoodler</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" onClick={()=> RedirectCourse()} style={{color:'#ffffff'}}>Coursearch</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" onClick={()=> RedirectNearby()} style={{color:'#ffffff'}}>NearBy</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" onClick={()=> RedirectKollin()} style={{color:'#ffffff'}}>Kollin</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" onClick={()=> RedirectFlight()} style={{color:'#ffffff'}}>KTH Flight Tool</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" onClick={()=> RedirectIkea()} style={{color:'#ffffff'}}>Ikea Assembly</a>
               </li>
             </ul>
           </div>
@@ -76,6 +123,11 @@ const Kollin = () =>{
                             </div>
 
                         </div>
+                        <div className="arrowDown">
+
+                            <i onClick={()=>{executeScroll()}} class="fas fa-chevron-down"></i>
+
+                            </div>
                        
                 </div>
                 
@@ -86,7 +138,7 @@ const Kollin = () =>{
 
 
                     </div>*/}
-                    <div className="descriptionDiv">
+                    <div className="descriptionDiv" ref={descRef}>
                         <div className="infoIcons">
                                 <div className="infoDivHead">
                                         <p style={{fontSize:'15px'}}>UX DESIGN</p>
@@ -173,6 +225,9 @@ const Kollin = () =>{
            
             
             </div>
+            <div className="ScrollContainer">
+                <ScrollArrow/>
+                </div>
             <div className="row">
               <Footer/>
             </div>
