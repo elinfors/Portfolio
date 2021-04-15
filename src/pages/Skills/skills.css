@@ -1,0 +1,4 @@
+.skillBox{
+    display:flex;
+    flex-direction: row;
+}

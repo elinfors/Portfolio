@@ -63,6 +63,7 @@
       display: block;
       justify-content: space-between;
       font-weight: bold;
+
       width: 80%;
       color:white;
     
@@ -106,6 +107,7 @@
         transition: all 0.2s ease-in-out;
         font-size: 13px;
         background-color: transparent;
+
         border: solid;
         color: #404040;
         align-self: center;
@@ -321,12 +323,13 @@
     
     .words{
       width:30%;
+      font-size: 1rem;
       margin-top: 2%;
       margin-bottom: 2%;
       display: inline-flex;
       justify-content: space-around;
-      font-weight: bold;
       color:white;
+      font-stretch: expanded;
     
     }
 
@@ -367,7 +370,7 @@
     }
     .infoDiv p{
       color:#404040;
-      font-size: 15px;
+      font-size: 16px;
       margin-top: 0;
       margin-bottom: 0;
     }
@@ -388,12 +391,13 @@
         transition: all 0.2s ease-in-out;
       font-size: 15px;
         background-color: transparent;
+      
         border: solid;
         color: #404040;
         align-self: center;
         padding: 3%;
-        /* margin: 10px; */
-        border-radius: 7px;
+        border-radius: 7px;  
+        border-width: 1px;
         cursor: pointer;
         width: 200px;
         height: 40px;
@@ -438,14 +442,14 @@
     .projectDesc{
       color: #404040;
       text-transform: uppercase;
-      font-size: 15px;
+      font-size: 20px;
       font-weight:900;
       margin-top: 3%;
     }
     .projectText{
-        margin-top: 5%;
-        margin-bottom: 5%;
-        font-size: 15px;
+        margin-top: 3%;
+        margin-bottom: 3%;
+        font-size: 16px;
         line-height: 1.5;
     }
     .processImg{
@@ -579,7 +583,7 @@
       .projectName{
           font-family: 'Lora, serif';
           font-weight: bold;
-          font-size: 30px;
+          font-size: 4rem;
       }
       .problem{
         font-size:13px;
@@ -587,6 +591,7 @@
       .projectButtonDownload{
         border: solid;
         font-size: 15px;
+        border-width: 1px;
         border-radius: 7px;
         border-color: #404040;
         padding: 1%;

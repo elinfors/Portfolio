@@ -26,11 +26,11 @@ return(
               
               </p>
               <p className="aboutContent">
-              During my education I have explored a wide range of technologies, strategies and problems to solve - from sustainability to e-learning.
+              I see myself as a communication between users, technology and design. During my education I have explored a wide range of technologies, strategies and problems to solve - from sustainability to e-learning.
               To me, human-centered design is the most important aspect of digitalization and I believe in a user centric digital future,
               both to ensure good user experiences and for creating value- and growth for any business.
               </p>
-             
+
               <p className="aboutContent">
               I am currently pursuing a Master’s of Science in Interactive Media Technology at KTH - Royal Institute of Technology in Stockholm, Sweden, 
               and I plan to graduate in June 2021.

@@ -46,7 +46,8 @@
   }
   .prorotypeButton:hover {
       background: #404040;
-      border:none;
+      border:solid;
+      border-color: #404040;
       color:white;
       cursor: pointer;
     }
@@ -103,9 +104,9 @@
       border: solid;
       color: #404040;
       align-self: center;
-      padding: 3%;
-      /* margin: 10px; */
+      padding: 1%;
       border-radius: 7px;
+      border-width: 1px;
       cursor: pointer;
       width: auto;
       align-self: center;
@@ -113,7 +114,9 @@
   }
   .prototypeButton:hover {
       background: #404040;
-      border:none;
+      border:solid;
+      border-width: 1px;
+      border-color: #404040;
       color:white;
       cursor: pointer;
     }

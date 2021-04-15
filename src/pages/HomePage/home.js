@@ -112,7 +112,7 @@ const HomeScreen = () => {
                 <a class="nav-link" onClick={executeScrollUp} style={{color:'#ffffff'}}>Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link"  onClick={executeScrollProjects} style={{color:'#ffffff'}}>Projects</a>
+                <a class="nav-link"  onClick={executeScrollProjects} style={{color:'#ffffff'}}>Portfolio</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" onClick={executeScrollAbout} style={{color:'#ffffff'}}>About</a>
@@ -143,7 +143,7 @@ const HomeScreen = () => {
                     <div className="words2">
                       <p className="hi">HI! </p>
                       <div className="name">
-                          I'm Elin Forsberg, a UX Designer, Web Developer and M.Sc. Student at KTH in Stockholm.
+                          I'm Elin Forsberg, a UX Designer, Frontend Developer and M.Sc. Student at KTH in Stockholm.
                       </div>
                       <button className="discoverButton" onClick={executeScrollProjects}>
                       DISCOVER
@@ -177,9 +177,6 @@ const HomeScreen = () => {
             
             <div className="projectsContainer" ref={myRef}>
       
-             {/*} <div ref={myRef1} className="skillsContainer">
-                  <Skills/>
-                  </div>*/}
 
                  
                   <Projects/>
@@ -187,8 +184,8 @@ const HomeScreen = () => {
               </div>
 
                 <div className="aboutContainer" ref={myRef2}>
-               
-                  <About/>
+              {/*  <Skills/>*/}
+                <About/>
                 </div>
                
                <div className="contactContainer" ref={myRef4}>
