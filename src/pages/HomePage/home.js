@@ -141,7 +141,7 @@ const HomeScreen = () => {
                 
                   <div className="introRow">
                     <div className="words2">
-                      <p className="hi">HI! </p>
+                     {/* <p className="hi">HI! </p>*/}
                       <div className="name">
                           I'm Elin Forsberg, a UX Designer, Frontend Developer and M.Sc. Student at KTH in Stockholm.
                       </div>
