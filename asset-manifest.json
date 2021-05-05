@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.cdf22ac2.chunk.css",
-    "main.js": "/portfolio/static/js/main.adaf9aa5.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.adaf9aa5.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.b48e1175.chunk.css",
+    "main.js": "/portfolio/static/js/main.9858508a.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.9858508a.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.209c2d7e.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.209c2d7e.js.map",
     "static/js/2.7ded09fc.chunk.js": "/portfolio/static/js/2.7ded09fc.chunk.js",
     "static/js/2.7ded09fc.chunk.js.map": "/portfolio/static/js/2.7ded09fc.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.2b2cba23c4eb8d0f5044390c1e79164e.js": "/portfolio/precache-manifest.2b2cba23c4eb8d0f5044390c1e79164e.js",
+    "precache-manifest.893c6836e50683d0099b5cb56ab6fa4d.js": "/portfolio/precache-manifest.893c6836e50683d0099b5cb56ab6fa4d.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.cdf22ac2.chunk.css.map": "/portfolio/static/css/main.cdf22ac2.chunk.css.map",
+    "static/css/main.b48e1175.chunk.css.map": "/portfolio/static/css/main.b48e1175.chunk.css.map",
     "static/js/2.7ded09fc.chunk.js.LICENSE.txt": "/portfolio/static/js/2.7ded09fc.chunk.js.LICENSE.txt",
     "static/media/coursearch.css": "/portfolio/static/media/CourseBanner1.58a55123.png",
     "static/media/CourseProcess.png": "/portfolio/static/media/CourseProcess.58c9520a.png",
     "static/media/CourseSolution2.png": "/portfolio/static/media/CourseSolution2.2490518c.png",
     "static/media/Coursearch2.png": "/portfolio/static/media/Coursearch2.9ef5d9cf.png",
-    "static/media/Elin Forsberg CV.pdf": "/portfolio/static/media/Elin Forsberg CV.8b5dbe5b.pdf",
+    "static/media/Elin Forsberg CV.pdf": "/portfolio/static/media/Elin Forsberg CV.a8f8fb21.pdf",
     "static/media/Elin Forsberg.pdf": "/portfolio/static/media/Elin Forsberg.11eda4a3.pdf",
     "static/media/Figma.PNG": "/portfolio/static/media/Figma.68eb9f16.PNG",
     "static/media/Flight.png": "/portfolio/static/media/Flight.a9268f65.png",
@@ -74,7 +74,7 @@
   "entrypoints": [
     "static/js/runtime-main.209c2d7e.js",
     "static/js/2.7ded09fc.chunk.js",
-    "static/css/main.cdf22ac2.chunk.css",
-    "static/js/main.adaf9aa5.chunk.js"
+    "static/css/main.b48e1175.chunk.css",
+    "static/js/main.9858508a.chunk.js"
   ]
 }

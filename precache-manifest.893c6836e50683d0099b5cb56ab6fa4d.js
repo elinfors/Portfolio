@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ee6d44291d82fa87eafd2ea749881e8b",
+    "revision": "e8d60c4a30a338a34cf5908ba7486679",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "cd2c1f4a98d70e48f94f",
-    "url": "/portfolio/static/css/main.cdf22ac2.chunk.css"
+    "revision": "a80abe156f5b3e823693",
+    "url": "/portfolio/static/css/main.b48e1175.chunk.css"
   },
   {
     "revision": "9a1cdfb7a446fe1272ae",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/js/2.7ded09fc.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "cd2c1f4a98d70e48f94f",
-    "url": "/portfolio/static/js/main.adaf9aa5.chunk.js"
+    "revision": "a80abe156f5b3e823693",
+    "url": "/portfolio/static/js/main.9858508a.chunk.js"
   },
   {
     "revision": "7a6cc99bd8f08f9fa6ec",
@@ -40,8 +40,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/Coursearch2.9ef5d9cf.png"
   },
   {
-    "revision": "8b5dbe5bdf9ca91b624399763835f5f6",
-    "url": "/portfolio/static/media/Elin Forsberg CV.8b5dbe5b.pdf"
+    "revision": "a8f8fb210710ec715e103b839044d419",
+    "url": "/portfolio/static/media/Elin Forsberg CV.a8f8fb21.pdf"
   },
   {
     "revision": "11eda4a3fec6378bae8649bd87c642b0",
